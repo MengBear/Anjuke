@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7A044A81A11A20900BAD838 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A044A71A11A20900BAD838 /* main.m */; };
+		C7A044AB1A11A20900BAD838 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A044AA1A11A20900BAD838 /* AppDelegate.m */; };
+		C7A044AE1A11A20900BAD838 /* Anjuke.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7A044AC1A11A20900BAD838 /* Anjuke.xcdatamodeld */; };
+		C7A044B11A11A20900BAD838 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A044B01A11A20900BAD838 /* ViewController.m */; };
+		C7A044B41A11A20900BAD838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A044B21A11A20900BAD838 /* Main.storyboard */; };
+		C7A044B61A11A20900BAD838 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A044B51A11A20900BAD838 /* Images.xcassets */; };
+		C7A044B91A11A20900BAD838 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7A044B71A11A20900BAD838 /* LaunchScreen.xib */; };
+		C7A044C51A11A20900BAD838 /* AnjukeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A044C41A11A20900BAD838 /* AnjukeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7A044BF1A11A20900BAD838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7A0449A1A11A20900BAD838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7A044A11A11A20900BAD838;
+			remoteInfo = Anjuke;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7A044A21A11A20900BAD838 /* Anjuke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anjuke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A044A61A11A20900BAD838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A044A71A11A20900BAD838 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7A044A91A11A20900BAD838 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7A044AA1A11A20900BAD838 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7A044AD1A11A20900BAD838 /* Anjuke.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Anjuke.xcdatamodel; sourceTree = "<group>"; };
+		C7A044AF1A11A20900BAD838 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7A044B01A11A20900BAD838 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7A044B31A11A20900BAD838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7A044B51A11A20900BAD838 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C7A044B81A11A20900BAD838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C7A044BE1A11A20900BAD838 /* AnjukeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnjukeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A044C31A11A20900BAD838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A044C41A11A20900BAD838 /* AnjukeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnjukeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7A0449F1A11A20900BAD838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A044BB1A11A20900BAD838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7A044991A11A20900BAD838 = {
+			isa = PBXGroup;
+			children = (
+				C7A044A41A11A20900BAD838 /* Anjuke */,
+				C7A044C11A11A20900BAD838 /* AnjukeTests */,
+				C7A044A31A11A20900BAD838 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7A044A31A11A20900BAD838 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7A044A21A11A20900BAD838 /* Anjuke.app */,
+				C7A044BE1A11A20900BAD838 /* AnjukeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7A044A41A11A20900BAD838 /* Anjuke */ = {
+			isa = PBXGroup;
+			children = (
+				C7A044A91A11A20900BAD838 /* AppDelegate.h */,
+				C7A044AA1A11A20900BAD838 /* AppDelegate.m */,
+				C7A044AF1A11A20900BAD838 /* ViewController.h */,
+				C7A044B01A11A20900BAD838 /* ViewController.m */,
+				C7A044B21A11A20900BAD838 /* Main.storyboard */,
+				C7A044B51A11A20900BAD838 /* Images.xcassets */,
+				C7A044B71A11A20900BAD838 /* LaunchScreen.xib */,
+				C7A044AC1A11A20900BAD838 /* Anjuke.xcdatamodeld */,
+				C7A044A51A11A20900BAD838 /* Supporting Files */,
+			);
+			path = Anjuke;
+			sourceTree = "<group>";
+		};
+		C7A044A51A11A20900BAD838 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7A044A61A11A20900BAD838 /* Info.plist */,
+				C7A044A71A11A20900BAD838 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7A044C11A11A20900BAD838 /* AnjukeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7A044C41A11A20900BAD838 /* AnjukeTests.m */,
+				C7A044C21A11A20900BAD838 /* Supporting Files */,
+			);
+			path = AnjukeTests;
+			sourceTree = "<group>";
+		};
+		C7A044C21A11A20900BAD838 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7A044C31A11A20900BAD838 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7A044A11A11A20900BAD838 /* Anjuke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7A044C81A11A20900BAD838 /* Build configuration list for PBXNativeTarget "Anjuke" */;
+			buildPhases = (
+				C7A0449E1A11A20900BAD838 /* Sources */,
+				C7A0449F1A11A20900BAD838 /* Frameworks */,
+				C7A044A01A11A20900BAD838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Anjuke;
+			productName = Anjuke;
+			productReference = C7A044A21A11A20900BAD838 /* Anjuke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7A044BD1A11A20900BAD838 /* AnjukeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7A044CB1A11A20900BAD838 /* Build configuration list for PBXNativeTarget "AnjukeTests" */;
+			buildPhases = (
+				C7A044BA1A11A20900BAD838 /* Sources */,
+				C7A044BB1A11A20900BAD838 /* Frameworks */,
+				C7A044BC1A11A20900BAD838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7A044C01A11A20900BAD838 /* PBXTargetDependency */,
+			);
+			name = AnjukeTests;
+			productName = AnjukeTests;
+			productReference = C7A044BE1A11A20900BAD838 /* AnjukeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7A0449A1A11A20900BAD838 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ibokan;
+				TargetAttributes = {
+					C7A044A11A11A20900BAD838 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C7A044BD1A11A20900BAD838 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = C7A044A11A11A20900BAD838;
+					};
+				};
+			};
+			buildConfigurationList = C7A0449D1A11A20900BAD838 /* Build configuration list for PBXProject "Anjuke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7A044991A11A20900BAD838;
+			productRefGroup = C7A044A31A11A20900BAD838 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7A044A11A11A20900BAD838 /* Anjuke */,
+				C7A044BD1A11A20900BAD838 /* AnjukeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7A044A01A11A20900BAD838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A044B41A11A20900BAD838 /* Main.storyboard in Resources */,
+				C7A044B91A11A20900BAD838 /* LaunchScreen.xib in Resources */,
+				C7A044B61A11A20900BAD838 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A044BC1A11A20900BAD838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7A0449E1A11A20900BAD838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A044AE1A11A20900BAD838 /* Anjuke.xcdatamodeld in Sources */,
+				C7A044AB1A11A20900BAD838 /* AppDelegate.m in Sources */,
+				C7A044B11A11A20900BAD838 /* ViewController.m in Sources */,
+				C7A044A81A11A20900BAD838 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A044BA1A11A20900BAD838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A044C51A11A20900BAD838 /* AnjukeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7A044C01A11A20900BAD838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7A044A11A11A20900BAD838 /* Anjuke */;
+			targetProxy = C7A044BF1A11A20900BAD838 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7A044B21A11A20900BAD838 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7A044B31A11A20900BAD838 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7A044B71A11A20900BAD838 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7A044B81A11A20900BAD838 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7A044C61A11A20900BAD838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7A044C71A11A20900BAD838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7A044C91A11A20900BAD838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Anjuke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7A044CA1A11A20900BAD838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Anjuke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C7A044CC1A11A20900BAD838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnjukeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anjuke.app/Anjuke";
+			};
+			name = Debug;
+		};
+		C7A044CD1A11A20900BAD838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnjukeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anjuke.app/Anjuke";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7A0449D1A11A20900BAD838 /* Build configuration list for PBXProject "Anjuke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A044C61A11A20900BAD838 /* Debug */,
+				C7A044C71A11A20900BAD838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7A044C81A11A20900BAD838 /* Build configuration list for PBXNativeTarget "Anjuke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A044C91A11A20900BAD838 /* Debug */,
+				C7A044CA1A11A20900BAD838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7A044CB1A11A20900BAD838 /* Build configuration list for PBXNativeTarget "AnjukeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A044CC1A11A20900BAD838 /* Debug */,
+				C7A044CD1A11A20900BAD838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C7A044AC1A11A20900BAD838 /* Anjuke.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C7A044AD1A11A20900BAD838 /* Anjuke.xcdatamodel */,
+			);
+			currentVersion = C7A044AD1A11A20900BAD838 /* Anjuke.xcdatamodel */;
+			path = Anjuke.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C7A0449A1A11A20900BAD838 /* Project object */;
+}
