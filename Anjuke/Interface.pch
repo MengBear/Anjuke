@@ -1,0 +1,79 @@
+//
+//  Interface.pch
+//  Anjuke
+//
+//  Created by 8025 on 14/11/3.
+//  Copyright (c) 2014年 liang. All rights reserved.
+//
+
+#ifndef Anjuke_Interface_pch
+#define Anjuke_Interface_pch
+#import "GainDataSource.h"
+#import "JudgeCity.h"
+#import "UIImageView+WebCache.h"
+#import "CustomNavigationName.h"
+
+#define ScreenWidth        [[UIScreen mainScreen] bounds].size.width      //屏幕宽度
+#define ScreenHeight       [[UIScreen mainScreen] bounds].size.height     //屏幕高度
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//                        —————    楼盘(默认是JSON格式数据)   ————
+
+//1.热门新楼盘数据请求  3个参数 <城市ID> <请求的页数> <一次请求可以获取的数据数目> (城市ID存在一个城市信息的plost文件)    在这可以获取楼盘ID号
+#define HotHouses(cityID,pages,amount) [NSString stringWithFormat:@"http://api.aifang.com/m/android/1.3/loupan/list/?api_key=androidkey&city_id=%@&order=rank&page=%d&page_size=%d&sig=aab3cae369360edadd93c87e84be46ee&i=a00000361d1846&m=Android-HUAWEI+C8812&o=C8812-user+4.0.3+GRJ90+C92B950+r0elease-keys&cv=4.2&v=4.0.3&cid=-1&app=a-xinfang&pm=b22&macid=f3cbcd5a6d8df823c6bd667499513de0,",cityID,pages,amount]
+
+
+//2.楼盘的详细信息数据  1个参数 <楼盘的ID>
+#define DetailedHouses(housesID) [NSString stringWithFormat:@"http://api.aifang.com/m/android/1.3/loupan/view/?api_key=androidkey&loupan_id=%@&sig=b4f54dcfd7300f4d9c26e1480b98ba04&i=a00000361d1846&m=Android-HUAWEI+C8812&o=C8812-user+4.0.3+GRJ90+C92B950+release-keys&cv=4.2&v=4.0.3&cid=14&app=a-xinfang&pm=b22&macid=f3cbcd5a6d8df823c6bd667499513de0",housesID]
+
+//3.房子的交通信息  1个参数 <楼盘的ID>
+#define HouseTrafficInformation(housesID) [NSString stringWithFormat:@"http://api.aifang.com/m/android/1.3/loupan/traffic/?api_key=androidkey&loupan_id=%@>",housesID]
+
+//4.单个热门楼盘(一个当前的热门楼盘) 无传入参数
+#define SingleHotHouses @"http://api.aifang.com/m/android/1.3/loupan/DetailView/?api_key=androidkey&loupan_id=244843&sig=2bec96fc38e9261e437243d559025444&i=a00000361d1846&m=Android-HUAWEI+C8812&o=C8812-user+4.0.3+GRJ90+C92B950+release-keys&cv=4.2&v=4.0.3&cid=-1&app=a-xinfang&pm=b22&macid=f3cbcd5a6d8df823c6bd667499513de0"
+
+//5.寻找附近的房子 4个参数  如:广州 城市ID:12, 寻找半径:5000 纬度:23.157638 经度:113.261168
+#define SearchNearbyHouse(cityID,R,lat,lng) [NSString stringWithFormat:@"http://api.aifang.com/m/android/1.3/loupan/list/?api_key=androidkey&city_id=%@&distance=%d&lat=%@&lng=%@&map_type=1&order=distance&page=1&page_size=10&sig=ab5d3f02bac35b38bcf90668ed574854&i=a00000361d1846&m=Android-HUAWEI+C8812&o=C8812-user+4.0.3+GRJ90+C92B950+release-keys&cv=4.2&v=4.0.3&cid=14&app=a-xinfang&pm=b22&macid=f3cbcd5a6d8df823c6bd667499513de0,"cityID,R,lat,lng]
+
+// 6.寻找城市  1个参数 <城市ID>
+#define SearchCity(cityID) [NSString stringWithFormat:@"http://api.aifang.com/m/android/1.3/loupan/list/?city_id=%@&page=1&page_size=10",cityID]
+
+//                          —————    新房(第二栏目)    ————
+
+//7.在新房寻找房子 3个参数 <城市ID> <请求的页数> <一次请求数据数量>  在这可以获取 楼盘ID号 和 一个PROP ID的数值
+#define InBridalChamberSearchHouse(cityID,pages,amount) [NSString stringWithFormat:@"http://api.aifang.com/m/android/1.3/props/searchList/?api_key=androidkey&city_id=%@&order=rank&page=%d&page_size=%d&sig=aab3cae369360edadd93c87e84be46ee&i=a00000361d1846&m=Android-HUAWEI+C8812&o=C8812-user+4.0.3+GRJ90+C92B950+release-keys&cv=4.2&v=4.0.3&cid=14&app=a-xinfang&pm=b22&macid=f3cbcd5a6d8df823c6bd667499513de0,",cityID,pages,amount]
+
+//8.获取整个楼盘的详细 参数, 一个参数 <PROP_ID>  比如图片 PROP ID在上一个接口获取
+#define GainHousesParameter(propID)  [NSString stringWithFormat:@"http://api.aifang.com/m/android/1.3/props/view/?api_key=androidkey&prop_id=%@&sig=419b97d88ae0b90fb5b47afa31f00677&i=a00000361d1846&m=Android-HUAWEI+C8812&o=C8812-user+4.0.3+GRJ90+C92B950+release-keys&cv=4.2&v=4.0.3&cid=14&app=a-xinfang&pm=b22&macid=f3cbcd5a6d8df823c6bd667499513de0",propID]
+
+//9.通过地理信息获取附近的楼盘 6个参数 <城市ID> <寻找半径> <纬度> <经度> <请求页码> <请求的页数>
+#define GainNearbyHouses(cityID,R,lat,lng,pages,amount) [NSString stringWithFormat:@"http://api.aifang.com/m/android/1.3/props/searchList/?api_key=androidkey&city_id=%@&distance=%d&lat=%@&lng=%@&map_type=1&order=distance&page=%d&page_size=%d&sig=0de8888bc8c114aae1f9c32b06a6d9eb&i=a00000361d1846&m=Android-HUAWEI+C8812&o=C8812-user+4.0.3+GRJ90+C92B950+release-keys&cv=4.3&v=4.0.3&cid=14&app=a-xinfang&pm=b95&macid=f3cbcd5a6d8df823c6bd667499513de0",cityID,R,lat,lng,pages,amount]
+
+//10.查看城市推荐的楼盘 1个参数 <城市ID>
+#define RecommendHouses(cityID) [NSString stringWithFormat:@"http://api.aifang.com/m/android/1.3/loupan/list/?city_id=%@&page=1&page_size=10",cityID]
+
+
+//                       —————    团购(第三版)    ————
+
+// 11.获取团购信息 2个参数 <城市ID> <城市2ID>
+#define GroupBuying(cityID,city2ID) [NSString stringWithFormat:@"http://api.aifang.com/m/android/1.3/tuangou/list/TodayList/?api_key=androidkey&city_id=%@&sig=bca07a40ed01acd1d1989d72a914e2eb&i=a00000361d1846&m=Android-HUAWEI+C8812&o=C8812-user+4.0.3+GRJ90+C92B950+release-keys&cv=4.2&v=4.0.3&cid=%@&app=a-xinfang&pm=b22&macid=f3cbcd5a6d8df823c6bd667499513de0",cityID,city2ID]
+
+
+//                  —————    资讯(旧版的第四个栏目)    ————
+
+// 12.获取资讯信息 1个参数 <城市ID> 可以获取到 cate id
+#define AccessToInformation(cityID) [NSString stringWithFormat:@"http://api.aifang.com/m/android/1.3/inform/category/?api_key=androidkey&city_id=%@&sig=bca07a40ed01acd1d1989d72a914e2eb&i=a00000361d1846&m=Android-HUAWEI+C8812&o=C8812-user+4.0.3+GRJ90+C92B950+release-keys&cv=4.2&v=4.0.3&cid=-1&app=a-xinfang&pm=b22&macid=f3cbcd5a6d8df823c6bd667499513de0",cityID]
+
+// 13.获取资讯信息 2个参数 <城市ID> <需要请求的页数>
+#define ForMoreInformation(cityID,pages) [NSString stringWithFormat:@"http://api.aifang.com/m/android/1.3/inform/list/?api_key=androidkey&cate_type=99&city_id=%@&page=1&page_size=%d&sig=a117ce63ed6b61a3cacf9bc757160b82&i=a00000361d1846&m=Android-HUAWEI+C8812&o=C8812-user+4.0.3+GRJ90+C92B950+release-keys&cv=4.2&v=4.0.3&cid=-1&app=a-xinfang&pm=b22&macid=f3cbcd5a6d8df823c6bd667499513de0",cityID,pages]
+
+//14.获取资讯详细信息 2个参数  cate id 和 inform id 都可以从上面api获取
+#define AccessToInformationDetails(cateID,InformID) [NSString stringWithFormat:@"http://api.aifang.com/m/android/1.3/inform/content/?api_key=androidkey&cate_type=%@&id=%@&sig=29e8300841a469e017355d35ffbfa075&i=a00000361d1846&m=Android-HUAWEI+C8812&o=C8812-user+4.0.3+GRJ90+C92B950+release-keys&cv=4.2&v=4.0.3&cid=14&app=a-xinfang&pm=b22&macid=f3cbcd5a6d8df823c6bd667499513de0",cateID,InformID]
+
+
+//                             —————    我的页面(最后一个页面)    ————
+// 15.登陆到该软件的服务器 2个参数 <密码> <账号>
+#define LandedServer(password,account) [NSString stringWithFormat:@"http://api.aifang.com/m/android/1.3/login/?api_key=androidkey&pass_word=%@E&user_name=%d&sig=babfc1aa20c3b6eb51c4031480a63141&i=a00000361d1846&m=Android-HUAWEI+C8812&o=C8812-user+4.0.3+GRJ90+C92B950+release-keys&cv=4.3&v=4.0.3&cid=-1&app=a-xinfang&pmacid=f3c",password,account]
+
+#endif

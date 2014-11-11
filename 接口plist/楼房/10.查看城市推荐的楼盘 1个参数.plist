@@ -1,0 +1,1204 @@
+{
+result =     {
+rows =         (
+{
+"activity_tags" =                 {
+kaipan = 1;
+kft = 1;
+tuangou = 1;
+};
+address = "\U4e0e\U4f5b\U5c71\U4ea4\U754c\U5904\U70ad\U6b65\U9547(\U4f5b\U4e00\U73af\U5317\U7ebf\U5b98\U62b1\U8def86\U51fa\U53e3)";
+"baidu_lat" = "23.343851116897";
+"baidu_lng" = "113.11493328665";
+"build_type" = "\U591a\U5c42,\U5c0f\U9ad8\U5c42,\U9ad8\U5c42,\U72ec\U680b\U522b\U5885,\U8054\U6392\U522b\U5885,\U53cc\U62fc\U522b\U5885";
+"city_id" = 12;
+"default_image" = "http://a.pic1.ajkimg.com/display/xinfang/02c8fb8cd30e4addc658dddddc309a68/275x206n.jpg";
+developer =                 (
+"\U5e7f\U5dde\U4e1c\U6e5b\U623f\U5730\U4ea7\U5f00\U53d1\U6709\U9650\U516c\U53f8"
+);
+dongtai =                 (
+{
+category = "\U5728\U552e";
+created = 1414632120;
+id = 556337;
+title = "\U6c5f\U666f\U5927\U4e09\U623f\U4f4e\U81f353\U4e07\U5143\U8d77";
+url = "http://gz.fang.anjuke.com/dongtai/2014-10-30/556337.html";
+},
+{
+category = "\U5728\U552e";
+created = 1413854880;
+id = 553094;
+title = "\U4e00\U53e3\U4ef7\U5355\U4f4d53\U4e07\U5143\U8d77";
+url = "http://gz.fang.anjuke.com/dongtai/2014-10-21/553094.html";
+}
+);
+"fitment_type" = "\U7cbe\U88c5\U4fee";
+"has_sale" = 1;
+"house_type_count" = 32;
+"house_types" =                 (
+{
+alias = "3\U5ba42\U53852\U536b";
+area = "95.12";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/341f9a3fc096909d786aea8fe1b8c638/300x300.jpg";
+description = "95\U5e733\U5ba42\U53852\U536b\U6237\U578b\Uff0c\U6237\U578b\U65b9\U6b63\U5b9e\U7528\Uff0c\U5385\U51fa\U9633\U53f0\Uff0c\U9633\U5149\U4e0e\U666f\U89c2\U81ea\U7136\U5ef6\U4f38\U5165\U5185\Uff0c\U5367\U623f\U5e26L\U578b\U98d8\U7a97\Uff0c\U589e\U5927\U5ba4\U5185\U7a7a\U95f4\U611f\Uff0c\U4e3b\U5367\U5e26\U72ec\U7acb\U536b\U751f\U95f4\Uff0c\U79c1\U5bc6\U6027\U597d\Uff0c\U8212\U9002\U5ea6\U9ad8\U3002";
+id = 94293;
+name = "16\U680b03\U6237\U578b";
+orient = "\U5357\U5317";
+"room_alias" = "3\U5c45\U5ba4";
+},
+{
+alias = "3\U5ba42\U53852\U536b";
+area = "107.21";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/c43ea17ab670df38adecb629369c9d95/300x300.jpg";
+description = "16\U680b02\U6237\U578b\Uff0c\U9762\U79ef107.21\U5e73\U7c73\Uff0c\U5ba4\U51853\U5c452\U53852\U536b\U3002\U5355\U4f4d\U4e3b\U5367\U5957\U95f4\U8bbe\U8ba1\Uff0c\U4fdd\U8bc1\U4e3b\U4eba\U79c1\U5bc6\U7a7a\U95f4\U3002\U5e26\U5165\U6237\U82b1\U56ed\U3001\U521b\U610f\U7a7a\U95f4\U548c\U5bbd\U655e\U9633\U53f0\Uff0c\U53ef\U968f\U610f\U6539\U9020\U3002\U5367\U5ba4\U5e26\U98d8\U7a97\U8bbe\U8ba1\Uff0c\U4fdd\U8bc1\U91c7\U5149\Uff0c\U52a8\U9759\U5206\U533a\U5408\U7406\U3002";
+id = 94281;
+name = "16\U680b02\U6237\U578b";
+orient = "\U5357\U5317";
+"room_alias" = "3\U5c45\U5ba4";
+},
+{
+alias = "3\U5ba42\U53852\U536b";
+area = "143.14";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/33593302c33b48f8a64131553eb972f1/300x300.jpg";
+description = "143\U5e733\U623f2\U53852\U536b\U5927\U6237\U578b\Uff0c\U7a7a\U95f4\U5bbd\U655e\Uff0c\U5367\U5ba4\U5e26\U98d8\U7a97\U8bbe\U8ba1\Uff0c\U91c7\U5149\U901a\U98ce\U89c2\U666f\U4ff1\U4f73\Uff0c\U4e3b\U5367\U5e26\U72ec\U7acb\U536b\U751f\U95f4\Uff0c\U8212\U9002\U5ea6\U8f83\U9ad8\Uff0c\U521b\U610f\U7a7a\U95f4\U53ef\U6539\U6210\U4e66\U623f\Uff0c\U53ef\U6269\U5c55\U6027\U5f3a\U3002";
+id = 94286;
+name = "16\U680b04\U6237\U578b";
+orient = "\U5357\U5317";
+"room_alias" = "3\U5c45\U5ba4";
+}
+);
+"is_sales_market" = 0;
+"is_sales_promotion" = 0;
+"kaipan_date" = 1413648000;
+"kaipan_new_date" = "2014-10-19";
+kft =                 {
+};
+lat = "23.338158";
+lng = "113.108368";
+"loop_line" = "";
+"loupan_id" = 239315;
+"loupan_name" = "\U82b1\U90fd\U9890\U548c\U76db\U4e16";
+"map_distance" = "*";
+"map_distance_num" = 0;
+"metro_info" = "6\U53f7\U7ebf";
+"phone_400_ext" = 11724;
+"phone_400_main" = "400 890 2828";
+price = 5700;
+"price_range" =                 {
+"city_id" = 12;
+flag = 1;
+id = 123;
+lowerlimit = 5000;
+rank = 2;
+title = "5000-1\U4e07";
+upperlimit = 10000;
+};
+"prop_num" = 3;
+"region_id" = 283;
+"region_title" = "\U82b1\U90fd";
+"sale_tag" = 9;
+spinyin = gz;
+"status_sale" = 3;
+"sub_region_id" = 5556;
+"sub_region_title" = "\U65b0\U673a\U573a";
+tags = "6\U53f7\U7ebf,\U7cbe\U88c5\U4fee,\U521a\U9700\U623f,\U4f4e\U5355\U4ef7,\U697c\U5df4";
+tese = "\U6d0b\U623f\U522b\U5885\U7686\U6709\Uff0c\U5c0f\U533a\U914d\U5957\U9f50\U5168";
+tuangou =                 {
+"act_title" = "\U9890\U548c\U76db\U4e164\U5e74\U6210\U719f\U5927\U76d8\Uff0c95-107\U65b9\U5927\U4e09\U623f\Uff0c\U53c2\U56e253\U4e07\U8d77\Uff01";
+"cover_image" = "http://a.pic1.ajkimg.com/display/xinfang/dc274c2f1c22adde5f3ef7f617cc8886/438x330n.jpg";
+"date_last" = "2014-10-31 23:59:59";
+"extend_info" =                     {
+"act_id" = 3257;
+"act_info" = "<null>";
+"act_state" = "<null>";
+"gathering_info" = "";
+"invite_desc" = "<null>";
+kanfangtuan = "";
+"loupan_feature" = "<null>";
+"mail_content" = "<null>";
+"msg_content" = "<null>";
+"prd_describe" = "<null>";
+"preferential_info" = "<li>\U4f18\U60e0\U8be6\U60c5\Uff1a\U4e00\U53e3\U4ef7\U603b\U4ef753\U4e07\U8d77</li>
+\n<li>\U9002\U7528\U8303\U56f4\Uff1a\U9002\U7528\U4e8e\U73b0\U5728\U552e\U768495-107\U5e73\U65b9\U7c73\U6237\U578b</li>
+\n<li>\U6709\U6548\U671f\U9650\Uff1a\U56e2\U8d2d\U62a5\U540d\U77ed\U4fe1\U6709\U6548\U671f\U81f32014.10.31</li>
+\n<li>\U4f7f\U7528\U65b9\U5f0f\Uff1a\U53c2\U52a0\U514d\U8d39\U4e13\U573a\U770b\U623f\U6216\U81ea\U884c\U524d\U5f80\U552e\U697c\U5904\Uff0c\U7b7e\U7f72\U8d2d\U623f\U534f\U8bae\U65f6\U53ef\U51fa\U793a\U62a5\U540d\U77ed\U4fe1\U4eab\U53d7\U4f18\U60e0</li>
+\n<li>\U670d\U52a1\U627f\U8bfa\Uff1a\U8d2d\U623f\U672a\U6210\U4ea4\U5c06\U9000\U8fd8\U5168\U90e8\U9884\U5b58\U6b3e</li>";
+"rebate_describe" = "\U4ea4\U901a\U4fbf\U6377\U9760\U8fd1\U4f5b\U5c71\U4e00\U73af\Uff0c\U5e7f\U6e05\U9ad8\U901f\Uff1b\U5c0f\U533a\U914d\U5957\U9f50\U5168\U5e26\U5c0f\U5b66\U5b66\U4f4d\Uff1b\U62e5\U4e00\U7ebf\U6c5f\U666f\U3002";
+"sina_blog" = "<null>";
+"special_note" = "<null>";
+status = 1;
+"trip_mail_content" = "<null>";
+"trip_msg_content" = "<null>";
+};
+"join_num" = 171;
+kanfangtuan =                     {
+"act_id" = 3257;
+"assemble_address" = "\U5730\U94c1\U4f53\U80b2\U897f\U8def\U7ad9H\U51fa\U53e3";
+"assemble_hour" = "9:30";
+"assemble_time" = "2014-11-01";
+comments = "";
+contact = "\U6797\U5c0f\U59d015914331373";
+"gather_time" = "11\U670801\U65e5";
+"is_see" = 2;
+"last_update" = "2014-10-20 13:40:43";
+service = 1;
+"service_desc" =                         {
+1 = "\U514d\U8d39\U5927\U5df4";
+};
+"valid_time" = "1970-01-01";
+};
+"mb_sale" = "\U4ea4\U901a\U4fbf\U6377\U9760\U8fd1\U4f5b\U5c71\U4e00\U73af\Uff0c\U5e7f\U6e05\U9ad8\U901f\Uff1b\U5c0f\U533a\U914d\U5957\U9f50\U5168\U5e26\U5c0f\U5b66\U5b66\U4f4d\Uff1b\U62e5\U4e00\U7ebf\U6c5f\U666f\U3002";
+"tuangou_id" = 3257;
+"tuangou_introduce" = "53\U4e07\U8d77\U8d2d\U90e8\U520695-107\U5e73\U65b9\U7c73\U5927\U4e09\U623f\U4eab\U53cc";
+"tuangou_link" = "\U4e00\U53e3\U4ef753\U4e07\U8d77";
+"tuangou_title" = "\U9890\U548c\U76db\U4e164\U5e74\U6210\U719f\U5927\U76d8\Uff0c95-107\U65b9\U5927\U4e09\U623f\Uff0c\U53c2\U56e253\U4e07\U8d77\Uff01";
+};
+},
+{
+"activity_tags" =                 {
+kaipan = 1;
+kft = 1;
+tuangou = 1;
+};
+address = "\U5c71\U524d\U5927\U9053168\U53f7";
+"baidu_lat" = "23.47300454019";
+"baidu_lng" = "113.04943176907";
+"build_type" = "\U5c0f\U9ad8\U5c42,\U72ec\U680b\U522b\U5885,\U8054\U6392\U522b\U5885,\U53cc\U62fc\U522b\U5885";
+"city_id" = 12;
+"default_image" = "http://b.pic1.ajkimg.com/display/xinfang/edfe5ea99f96b1ffc35b2c87f382d2d4/275x206n.jpg";
+developer =                 (
+"\U7f8e\U6797\U57fa\U4e1a\U96c6\U56e2"
+);
+dongtai =                 (
+{
+category = "\U5728\U552e";
+created = 1414632300;
+id = 556342;
+title = "\U521a\U9700\U6d0b\U623f\U9996\U4ed84\U4e07\U8d77";
+url = "http://gz.fang.anjuke.com/dongtai/2014-10-30/556342.html";
+},
+{
+category = "\U5728\U552e";
+created = 1413967680;
+id = 553852;
+title = "11\U6708\U5c06\U63a8\U3010\U5929\U7434\U534a\U5c9b\U3011\U7ec4\U56e2";
+url = "http://gz.fang.anjuke.com/dongtai/2014-10-22/553852.html";
+}
+);
+"fitment_type" = "\U7cbe\U88c5\U4fee";
+"has_sale" = 1;
+"house_type_count" = 20;
+"house_types" =                 (
+{
+alias = "3\U5ba42\U53852\U536b";
+area = "135.00";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/4fe7b57b62a2dbb57e71a4689feb022d/300x300.jpg";
+description = "\U5929\U7434\U534a\U5c9bE\U6237\U578b\Uff0c\U4e09\U623f\U4e24\U5385\U4e24\U536b\Uff0c\U9762\U79ef135\U5e73\U65b9\U7c73\Uff0c\U6237\U578b\U65b9\U6b63\U5b9e\U7528\Uff0c\U5b9e\U7528\U9762\U79ef\U8f83\U5927\Uff0c\U4e3b\U5367\U8c6a\U534e\U5957\U623f\U8bbe\U8ba1\Uff0c\U8212\U9002\U5ea6\U9ad8\Uff0c\U5385\U51fa\U8d85\U5927\U9633\U53f0\Uff0c\U89c6\U91ce\U5bbd\U9614\Uff0c\U89c2\U666f\U4eab\U53d7\U597d\U3002";
+id = 109216;
+name = "\U5929\U7434\U534a\U5c9bE\U6237\U578b";
+orient = "\U5357";
+"room_alias" = "3\U5c45\U5ba4";
+},
+{
+alias = "2\U5ba41\U53851\U536b";
+area = "68.00";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/a92202c929876f2dffe8ae8303118a51/300x300.jpg";
+description = "\U5929\U7434\U534a\U5c9bA+\U6237\U578b\Uff0c\U4e24\U623f\U4e00\U5385\U4e00\U536b\Uff0c\U9762\U79ef68\U5e73\Uff0c\U6237\U578b\U65b9\U6b63\U5b9e\U7528\Uff0c\U5385\U51fa\U9633\U53f0\Uff0c\U91c7\U5149\U89c2\U666f\U6781\U4f73\U3002";
+id = 109213;
+name = "\U5929\U7434\U534a\U5c9bA+\U6237\U578b";
+orient = "\U5357";
+"room_alias" = "2\U5c45\U5ba4";
+},
+{
+alias = "3\U5ba42\U53852\U536b";
+area = "147.00";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/23ee5c77337f53493fca7a4ea83aca25/300x300.jpg";
+description = "\U5929\U7434\U534a\U5c9b\U7ec4\U56e2F\U6237\U578b\Uff0c147\U5e73\U4e09\U623f\U4e24\U5385\U4e24\U536b\U6237\U578b\Uff0c\U5385\U51fa\U9633\U53f0\Uff0c\U91c7\U5149\U5145\U8db3\Uff0c\U8d85\U5927\U9762\U79ef\U9633\U53f0\Uff0c\U89c6\U91ce\U5bbd\U9614\Uff0c\U89c2\U666f\U4eab\U53d7\U597d\U3002";
+id = 109212;
+name = "\U5929\U7434\U534a\U5c9bF\U6237\U578b";
+orient = "\U5357";
+"room_alias" = "3\U5c45\U5ba4";
+}
+);
+"is_sales_market" = 0;
+"is_sales_promotion" = 0;
+"kaipan_date" = 1414771200;
+"kaipan_new_date" = "2014-11-01";
+kft =                 {
+};
+lat = "23.466671";
+lng = "113.043008";
+"loop_line" = "";
+"loupan_id" = 239166;
+"loupan_name" = "\U4e2d\U56fd\U7f8e\U6797\U6e56";
+"map_distance" = "*";
+"map_distance_num" = 0;
+"metro_info" = "";
+"phone_400_ext" = 11570;
+"phone_400_main" = "400 890 2828";
+price = 7000;
+"price_range" =                 {
+"city_id" = 12;
+flag = 1;
+id = 123;
+lowerlimit = 5000;
+rank = 2;
+title = "5000-1\U4e07";
+upperlimit = 10000;
+};
+"prop_num" = 0;
+"region_id" = 283;
+"region_title" = "\U82b1\U90fd";
+"sale_tag" = 9;
+spinyin = gz;
+"status_sale" = 3;
+"sub_region_id" = 301;
+"sub_region_title" = "\U72ee\U5cad";
+tags = "\U5373\U5c06\U5f00\U76d8,\U7cbe\U88c5\U4fee,\U65c5\U6e38\U5730\U4ea7,\U4f4e\U603b\U4ef7,\U5927\U578b\U793e\U533a";
+tese = "\U5927\U793e\U533a\U3001\U73af\U5883\U4f18\U7f8e\U3001\U603b\U4ef7\U4f4e\U3001\U4e0d\U9650\U8d2d";
+tuangou =                 {
+"act_title" = "\U4f4f\U5b85\U4e0d\U9650\U8d2d\Uff0c1\U6210\U9996\U4ed80\U5229\U7387\Uff0c\U9996\U4ed84\U4e07\U8d77\Uff0c\U53c2\U56e2\U4eab\U53d79.9\U6298\U4f18\U60e0";
+"cover_image" = "http://a.pic1.ajkimg.com/display/xinfang/027abaa7990251d09cc2b5aadb2b87f1/438x330n.jpg";
+"date_last" = "2014-11-10 23:59:59";
+"extend_info" =                     {
+"act_id" = 3325;
+"act_info" = "<null>";
+"act_state" = "<null>";
+"gathering_info" = "";
+"invite_desc" = "<null>";
+kanfangtuan = "";
+"loupan_feature" = "<null>";
+"mail_content" = "<null>";
+"msg_content" = "<null>";
+"prd_describe" = "<null>";
+"preferential_info" = "<li>\U4f18\U60e0\U8be6\U60c5\Uff1a\U989d\U591699\U6298</li>
+\n<li>\U9002\U7528\U8303\U56f4\Uff1a\U9002\U5e94\U4e8e\U6240\U6709\U5929\U7434\U534a\U5c9b\U6d0b\U623f\U5355\U4f4d</li>
+\n<li>\U6709\U6548\U671f\U9650\Uff1a\U56e2\U8d2d\U62a5\U540d\U77ed\U4fe1\U6709\U6548\U671f\U81f32014.11.10</li>
+\n<li>\U4f7f\U7528\U65b9\U5f0f\Uff1a\U53c2\U52a0\U514d\U8d39\U4e13\U573a\U770b\U623f\U6216\U81ea\U884c\U524d\U5f80\U552e\U697c\U5904\Uff0c\U7b7e\U7f72\U8d2d\U623f\U534f\U8bae\U65f6\U53ef\U51fa\U793a\U62a5\U540d\U77ed\U4fe1\U4eab\U53d7\U4f18\U60e0</li>
+\n<li>\U670d\U52a1\U627f\U8bfa\Uff1a\U8d2d\U623f\U672a\U6210\U4ea4\U5c06\U9000\U8fd8\U5168\U90e8\U9884\U5b58\U6b3e</li>";
+"rebate_describe" = "\U989d\U591699\U6298";
+"sina_blog" = "<null>";
+"special_note" = "<null>";
+status = 1;
+"trip_mail_content" = "<null>";
+"trip_msg_content" = "<null>";
+};
+"join_num" = 30;
+kanfangtuan =                     {
+"act_id" = 3325;
+"assemble_address" = "\U5929\U6cb3\U533a\U5730\U94c1\U4f53\U80b2\U897f\U8def\U7ad9H\U51fa\U53e3";
+"assemble_hour" = "9:30";
+"assemble_time" = "2014-11-08";
+comments = "";
+contact = "\U9648\U5c0f\U59d0\Uff1a13710712713";
+"gather_time" = "11\U670808\U65e5";
+"is_see" = 2;
+"last_update" = "2014-10-27 16:11:24";
+service = 1;
+"service_desc" =                         {
+1 = "\U514d\U8d39\U5927\U5df4";
+};
+"valid_time" = "1970-01-01";
+};
+"mb_sale" = "\U4f4f\U5b85\U4e0d\U9650\U8d2d\Uff0c1\U6210\U9996\U4ed80\U5229\U7387\Uff0c\U9996\U4ed84\U4e07\U8d77\Uff0c\U53c2\U56e2\U4eab\U53d79.9\U6298\U4f18\U60e0\Uff01";
+"tuangou_id" = 3325;
+"tuangou_introduce" = "\U4f4f\U5b85\U4e0d\U9650\U8d2d\Uff0c1\U6210\U9996\U4ed80\U5229\U7387\Uff0c\U9996\U4ed84\U4e07";
+"tuangou_link" = "\U989d\U591699\U6298";
+"tuangou_title" = "\U4f4f\U5b85\U4e0d\U9650\U8d2d\Uff0c1\U6210\U9996\U4ed80\U5229\U7387\Uff0c\U9996\U4ed84\U4e07\U8d77\Uff0c\U53c2\U56e2\U4eab\U53d79.9\U6298\U4f18\U60e0";
+};
+},
+{
+"activity_tags" =                 {
+kaipan = 1;
+kft = 1;
+tuangou = 1;
+};
+address = "\U82b1\U5c71\U9547\U653f\U5e9c\U65c1";
+"baidu_lat" = "23.445943501598";
+"baidu_lng" = "113.28355864425";
+"build_type" = "\U5c0f\U9ad8\U5c42";
+"city_id" = 12;
+"default_image" = "http://b.pic1.ajkimg.com/display/xinfang/e2d9463765ddfbf6774a458575ce5f6c/275x206n.jpg";
+developer =                 (
+"\U5e7f\U5dde\U82b1\U90fd\U96c5\U5c55\U623f\U5730\U4ea7\U5f00\U53d1\U6709\U9650\U516c\U53f8"
+);
+dongtai =                 (
+{
+category = "\U5f85\U552e";
+created = 1413794400;
+id = 552930;
+title = "\U9996\U4ed88\U4e07\U5143\U8d77";
+url = "http://gz.fang.anjuke.com/dongtai/2014-10-20/552930.html";
+},
+{
+category = "\U5f85\U552e";
+created = 1413336360;
+id = 551132;
+title = "\U6700\U9ad8\U53ef\U514d30\U4e07\U9996\U4ed8";
+url = "http://gz.fang.anjuke.com/dongtai/2014-10-15/551132.html";
+}
+);
+"fitment_type" = "\U7cbe\U88c5\U4fee";
+"has_sale" = 1;
+"house_type_count" = 5;
+"house_types" =                 (
+{
+alias = "3\U5ba42\U53852\U536b";
+area = "90.00";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/39e32e7c19bc0152eee4921fb088a7dd/300x300.jpg";
+description = "\U6237\U578b\U65b9\U6b63\U5b9e\U7528\Uff0c\U8f7b\U677e\U4eab\U53d7\U8d85\U9ad8\U4f7f\U7528\U7387\n\U5367\U5ba4\U5168\U98d8\U7a97\U8bbe\U8ba1\Uff0c\U5145\U5206\U4eab\U53d7\U9633\U5149\U6ecb\U6da6\n\U5165\U6237\U524d\U6807\U914d\U7384\U5173\U978b\U67dc\Uff0c\U6d1e\U6089\U6536\U7eb3\U9700\U6c42";
+id = 106194;
+name = "02\U680b02\U623f";
+orient = "\U5357";
+"room_alias" = "3\U5c45\U5ba4";
+},
+{
+alias = "3\U5ba42\U53852\U536b";
+area = "95.00";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/1686c52a5250cc352f40bf01120affd7/300x300.jpg";
+description = "";
+id = 107859;
+name = "2\U680b04\U623f";
+orient = "\U5357\U5317";
+"room_alias" = "3\U5c45\U5ba4";
+},
+{
+alias = "3\U5ba42\U53851\U536b";
+area = "80.00";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/b73d600fa7f8f71babe18be7d4b52678/300x300.jpg";
+description = "\U96c5\U5c45\U4e50\U4e07\U79d1\U70ed\U6a5980\U5e73\U7c73\U6237\U578b";
+id = 107858;
+name = "5\U30017\U680b03/04\U623f";
+orient = "\U5357\U5317";
+"room_alias" = "3\U5c45\U5ba4";
+}
+);
+"is_sales_market" = 1;
+"is_sales_promotion" = 0;
+"kaipan_date" = 1412092800;
+"kaipan_new_date" = "2014-10-01";
+kft =                 {
+};
+lat = "23.439604";
+lng = "113.277111";
+"loop_line" = "";
+"loupan_id" = 251919;
+"loupan_name" = "\U96c5\U5c45\U4e50\U4e07\U79d1\U70ed\U6a59";
+"map_distance" = "*";
+"map_distance_num" = 0;
+"metro_info" = "3\U53f7\U7ebf\U5317\U5ef6,9\U53f7\U7ebf";
+"phone_400_ext" = 27560;
+"phone_400_main" = "400 890 2828";
+price = 0;
+"price_range" =                 {
+"city_id" = 12;
+flag = 1;
+id = 121;
+lowerlimit = 0;
+rank = 0;
+title = "\U552e\U4ef7\U5f85\U5b9a";
+upperlimit = 1;
+};
+"prop_num" = 0;
+"region_id" = 283;
+"region_title" = "\U82b1\U90fd";
+"sale_tag" = 9;
+spinyin = gz;
+"status_sale" = 7;
+"sub_region_id" = 5556;
+"sub_region_title" = "\U65b0\U673a\U573a";
+tags = "\U53cc\U8f68\U4ea4\U623f,9\U53f7\U7ebf,3\U53f7\U7ebf\U5317\U5ef6,\U6c5f\U666f,\U98d8\U7a97";
+tese = "\U96c5\U5c45\U4e50\U548c\U4e07\U79d1\U4e24\U5927\U54c1\U724c\U5171\U540c\U6253\U9020\U7684\U5b9c\U5c45\U5927\U76d8";
+tuangou =                 {
+"act_title" = "\U96c5\U5c45\U4e50\U4e07\U79d1\U5f3a\U5f3a\U8054\U624b\Uff0c70-120\U33a1\U5168\U80fd\U6237\U578b\Uff0c\U53c2\U56e21\U4e07\U62b55\U4e07\Uff01";
+"cover_image" = "http://b.pic1.ajkimg.com/display/xinfang/93286dc84e49499735c01ec031df6248/438x330n.jpg";
+"date_last" = "2014-11-08 23:59:59";
+"extend_info" =                     {
+"act_id" = 3141;
+"act_info" = "<null>";
+"act_state" = "<null>";
+"gathering_info" = "";
+"invite_desc" = "<null>";
+kanfangtuan = "";
+"loupan_feature" = "<null>";
+"mail_content" = "<null>";
+"msg_content" = "<null>";
+"prd_describe" = "<null>";
+"preferential_info" = "<li>\U4f18\U60e0\U8be6\U60c5\Uff1a1\U4e07\U62b55\U4e07\Uff08\U9884\U4ea41\U4e07\Uff0c\U8d2d\U623f\U65f6\U53ef\U62b55\U4e07\U4f7f\U7528\Uff09</li>
+\n<li>\U9002\U7528\U8303\U56f4\Uff1a\U9002\U7528\U5168\U90e8\U6237\U578b</li>
+\n<li>\U6709\U6548\U671f\U9650\Uff1a\U56e2\U8d2d\U62a5\U540d\U77ed\U4fe1\U6709\U6548\U671f\U81f32014.11.30</li>
+\n<li>\U4f7f\U7528\U65b9\U5f0f\Uff1a\U53c2\U52a0\U514d\U8d39\U4e13\U573a\U770b\U623f\U6216\U81ea\U884c\U524d\U5f80\U552e\U697c\U5904\Uff0c\U7b7e\U7f72\U8d2d\U623f\U534f\U8bae\U65f6\U53ef\U51fa\U793a\U62a5\U540d\U77ed\U4fe1\U4eab\U53d7\U4f18\U60e0</li>
+\n<li>\U670d\U52a1\U627f\U8bfa\Uff1a\U8d2d\U623f\U672a\U6210\U4ea4\U5c06\U9000\U8fd8\U5168\U90e8\U9884\U5b58\U6b3e</li>";
+"rebate_describe" = "\U96c5\U5c45\U4e50\U4e07\U79d1\U5f3a\U5f3a\U8054\U624b\Uff0c10\U67081\U65e5\U8ba4\U7b79\U542f\U52a8\Uff0c\U53c2\U56e21\U4e07\U62b55\U4e07\Uff01";
+"sina_blog" = "<null>";
+"special_note" = "<null>";
+status = 1;
+"trip_mail_content" = "<null>";
+"trip_msg_content" = "<null>";
+};
+"join_num" = 68;
+kanfangtuan =                     {
+"act_id" = 3141;
+"assemble_address" = "\U5730\U94c1\U4f53\U80b2\U897f\U8def\U7ad9H\U51fa\U53e3";
+"assemble_hour" = "9:30";
+"assemble_time" = "2014-11-01";
+comments = "";
+contact = "\U9648\U5c0f\U59d0\Uff1a13710712713";
+"gather_time" = "11\U670801\U65e5";
+"is_see" = 2;
+"last_update" = "2014-10-23 10:20:19";
+service = 1;
+"service_desc" =                         {
+1 = "\U514d\U8d39\U5927\U5df4";
+};
+"valid_time" = "1970-01-01";
+};
+"mb_sale" = "\U96c5\U5c45\U4e50\U4e07\U79d1\U5f3a\U5f3a\U8054\U624b\Uff0c10\U67081\U65e5\U8ba4\U7b79\U542f\U52a8\Uff0c\U53c2\U56e21\U4e07\U62b55\U4e07\Uff01";
+"tuangou_id" = 3141;
+"tuangou_introduce" = "\U96c5\U5c45\U4e50\U4e07\U79d1\U5f3a\U5f3a\U8054\U624b\Uff0c10\U67081\U65e5\U8ba4\U7b79\U542f";
+"tuangou_link" = "1\U4e07\U62b55\U4e07";
+"tuangou_title" = "\U96c5\U5c45\U4e50\U4e07\U79d1\U5f3a\U5f3a\U8054\U624b\Uff0c70-120\U33a1\U5168\U80fd\U6237\U578b\Uff0c\U53c2\U56e21\U4e07\U62b55\U4e07\Uff01";
+};
+},
+{
+"activity_tags" =                 {
+kaipan = 0;
+kft = 1;
+tuangou = 1;
+};
+address = "\U65b0\U8857\U5927\U9053\U4e2d";
+"baidu_lat" = "23.375483454571";
+"baidu_lng" = "113.20528048737";
+"build_type" = "\U9ad8\U5c42";
+"city_id" = 12;
+"default_image" = "http://b.pic1.ajkimg.com/display/xinfang/e46c1fc1a8cde57c28a282f8b117164f/275x206n.jpg";
+developer =                 (
+"\U5e7f\U5dde\U5e02\U82b1\U90fd\U7948\U798f\U623f\U5730\U4ea7\U6709\U9650\U516c\U53f8"
+);
+dongtai =                 (
+{
+category = "\U5728\U552e";
+created = 1413854340;
+id = 553088;
+title = "\U73b0\U8d2d\U623f\U53ef\U4eab7\U5343\U62b59\U6298";
+url = "http://gz.fang.anjuke.com/dongtai/2014-10-21/553088.html";
+},
+{
+category = "\U5728\U552e";
+created = 1413335280;
+id = 551116;
+title = "\U4e00\U53e3\U4ef7\U5355\U4f4d\U4f4e\U81f39000\U5143/\U5e73";
+url = "http://gz.fang.anjuke.com/dongtai/2014-10-15/551116.html";
+}
+);
+"fitment_type" = "\U6bdb\U576f";
+"has_sale" = 0;
+"house_type_count" = 14;
+"house_types" =                 (
+{
+alias = "2\U5ba42\U53851\U536b";
+area = "76.00";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/d6c0406a5042d816944b7bcefe3164b8/300x300.jpg";
+description = "74\U5e732\U623f2\U53851\U536b\Uff0c\U6237\U578b\U65b9\U6b63\U5b9e\U7528\Uff0c\U4f7f\U7528\U9762\U79ef\U8fbe\U523080\U5e73\Uff0c\U5385\U51fa\U9633\U53f0\Uff0c\U91c7\U5149\U5145\U8db3\Uff0c\U53a8\U536b\U5168\U660e\Uff0c\U6e05\U723d\U900f\U6c14\U3002";
+id = 108785;
+name = "\U4e8c\U671f2\U623fB\U6237\U578b";
+orient = "\U5357";
+"room_alias" = "2\U5c45\U5ba4";
+},
+{
+alias = "3\U5ba42\U53852\U536b";
+area = "91.30";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/4a5bbd116a34955ac075620ed56ff22d/300x300.jpg";
+description = "\U7948\U798f\U4e07\U666f\U5cf03\U623fA\U5e26\U5957\U623f\U6237\U578b3\U5ba42\U53852\U536b1\U53a8 91.03\U33a1";
+id = 108828;
+name = "\U7948\U798f\U4e07\U666f\U5cf03\U623fA\U5e26\U5957\U623f";
+orient = "\U5357";
+"room_alias" = "3\U5c45\U5ba4";
+},
+{
+alias = "4\U5ba42\U53852\U536b";
+area = "140.00";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/b63f60ea808b514f1f3881809550235d/300x300.jpg";
+description = "140\U5e734\U623f2\U53852\U623f2\U536b\U6237\U578b\Uff0c\U6237\U578b\U52a8\U9759\U5206\U533a\Uff0c\U5b9e\U7528\U6027\U8212\U9002\U5ea6\U5747\U597d\Uff0c\U5385\U51fa\U9633\U53f0\Uff0c\U91c7\U5149\U5145\U8db3\Uff0c\U4e3b\U5367\U5957\U623f\U8bbe\U8ba1\Uff0c\U5e26\U72ec\U7acb\U8863\U5e3d\U95f4\Uff0c\U79c1\U5bc6\U6027\U597d\Uff0c\U8212\U9002\U5ea6\U9ad8\U3002";
+id = 108793;
+name = "\U4e8c\U671f4\U623fB\U6237\U578b";
+orient = "\U5317";
+"room_alias" = "4\U5c45\U5ba4";
+}
+);
+"is_sales_market" = 1;
+"is_sales_promotion" = 0;
+"kaipan_date" = 1367337600;
+"kaipan_new_date" = "2013-05-01";
+kft =                 {
+};
+lat = "23.369638";
+lng = "113.198769";
+"loop_line" = "";
+"loupan_id" = 246490;
+"loupan_name" = "\U7948\U798f\U4e07\U666f\U5cf0";
+"map_distance" = "*";
+"map_distance_num" = 0;
+"metro_info" = "9\U53f7\U7ebf";
+"phone_400_ext" = 19449;
+"phone_400_main" = "400 890 2828";
+price = 10000;
+"price_range" =                 {
+"city_id" = 12;
+flag = 1;
+id = 123;
+lowerlimit = 5000;
+rank = 2;
+title = "5000-1\U4e07";
+upperlimit = 10000;
+};
+"prop_num" = 28;
+"region_id" = 283;
+"region_title" = "\U82b1\U90fd";
+"sale_tag" = 9;
+spinyin = gz;
+"status_sale" = 3;
+"sub_region_id" = 5555;
+"sub_region_title" = "\U533a\U5e9c";
+tags = "9\U53f7\U7ebf,\U521a\U9700\U623f,\U4f4e\U603b\U4ef7,\U54c1\U724c\U5f00\U53d1\U5546,\U5b66\U6821";
+tese = "\U5360\U5c3d\U82b1\U90fd\U65b0\U534e\U53cc\U6838\U5fc3\U5546\U5708\U7e41\U534e";
+tuangou =                 {
+"act_title" = "\U6210\U719f\U5927\U76d8\U9996\U4ed86\U4e07\Uff0c\U8d2d\U623f\U4eab7\U5343\U62b59\U6298\U4f18\U60e0\Uff0c\U62a2\U53cc\U5730\U94c1\U4ea4\U6c47\U5b66\U4f4d\U623f\Uff01";
+"cover_image" = "http://b.pic1.ajkimg.com/display/xinfang/50695f4247de28da4e2dc3a43adc7717/438x330n.jpg";
+"date_last" = "2014-10-31 23:59:59";
+"extend_info" =                     {
+"act_id" = 3292;
+"act_info" = "<null>";
+"act_state" = "<null>";
+"gathering_info" = "";
+"invite_desc" = "<null>";
+kanfangtuan = "";
+"loupan_feature" = "<null>";
+"mail_content" = "<null>";
+"msg_content" = "<null>";
+"prd_describe" = "<null>";
+"preferential_info" = "<li>\U4f18\U60e0\U8be6\U60c5\Uff1a7\U5343\U62b59\U6298\U4f18\U60e0\Uff08\U9884\U4ea47\U5343\Uff0c\U8d2d\U623f\U65f6\U53ef\U62b59\U6298\U4f7f\U7528\Uff09</li>
+\n<li>\U9002\U7528\U8303\U56f4\Uff1a\U9002\U7528\U4e8e\U73b0\U5728\U4e3b\U63a8\U7684\U6240\U6709\U6237\U578b</li>
+\n<li>\U6709\U6548\U671f\U9650\Uff1a\U56e2\U8d2d\U62a5\U540d\U77ed\U4fe1\U6709\U6548\U671f\U81f32014.10.31</li>
+\n<li>\U4f7f\U7528\U65b9\U5f0f\Uff1a\U53c2\U52a0\U514d\U8d39\U4e13\U573a\U770b\U623f\U6216\U81ea\U884c\U524d\U5f80\U552e\U697c\U5904\Uff0c\U7b7e\U7f72\U8d2d\U623f\U534f\U8bae\U65f6\U53ef\U51fa\U793a\U62a5\U540d\U77ed\U4fe1\U4eab\U53d7\U4f18\U60e0</li>
+\n<li>\U670d\U52a1\U627f\U8bfa\Uff1a\U8d2d\U623f\U672a\U6210\U4ea4\U5c06\U9000\U8fd8\U5168\U90e8\U9884\U5b58\U6b3e</li>";
+"rebate_describe" = "\U6210\U719f\U5927\U76d8\U9996\U4ed86\U4e07\Uff0c\U8d2d\U623f\U4eab7\U5343\U62b59\U6298\U4f18\U60e0\Uff0c\U62a2\U53cc\U5730\U94c1\U4ea4\U6c47\U5b66\U4f4d\U623f\Uff01";
+"sina_blog" = "<null>";
+"special_note" = "<null>";
+status = 1;
+"trip_mail_content" = "<null>";
+"trip_msg_content" = "<null>";
+};
+"join_num" = 116;
+kanfangtuan =                     {
+"act_id" = 3292;
+"assemble_address" = "\U5730\U94c1\U4f53\U80b2\U897f\U8def\U7ad9H\U51fa\U53e3";
+"assemble_hour" = "9:30";
+"assemble_time" = "2014-11-01";
+comments = "";
+contact = "\U674e\U5148\U751f\Uff1a13631301694";
+"gather_time" = "11\U670801\U65e5";
+"is_see" = 2;
+"last_update" = "2014-10-29 14:44:26";
+service = 1;
+"service_desc" =                         {
+1 = "\U514d\U8d39\U5927\U5df4";
+};
+"valid_time" = "1970-01-01";
+};
+"mb_sale" = "\U6210\U719f\U5927\U76d8\U9996\U4ed86\U4e07\Uff0c\U8d2d\U623f\U4eab7\U5343\U62b59\U6298\U4f18\U60e0\Uff0c\U62a2\U53cc\U5730\U94c1\U4ea4\U6c47\U5b66\U4f4d\U623f\Uff01";
+"tuangou_id" = 3292;
+"tuangou_introduce" = "\U6210\U719f\U5927\U76d8\U9996\U4ed86\U4e07\Uff0c\U8d2d\U623f\U4eab7\U5343\U62b59\U6298\U4f18";
+"tuangou_link" = "7\U5343\U62b59\U6298\U4f18\U60e0";
+"tuangou_title" = "\U6210\U719f\U5927\U76d8\U9996\U4ed86\U4e07\Uff0c\U8d2d\U623f\U4eab7\U5343\U62b59\U6298\U4f18\U60e0\Uff0c\U62a2\U53cc\U5730\U94c1\U4ea4\U6c47\U5b66\U4f4d\U623f";
+};
+},
+{
+"activity_tags" =                 {
+kaipan = 0;
+kft = 0;
+tuangou = 0;
+};
+address = "\U9ec4\U57d4\U5f00\U521b\U5927\U9053\U4e0e\U9ec4\U57d4\U4e1c\U8def\U4ea4\U6c47\U5904";
+"baidu_lat" = "23.111194383984";
+"baidu_lng" = "113.55753848842";
+"build_type" = "\U8d85\U9ad8\U5c42";
+"city_id" = 12;
+"default_image" = "http://c.pic1.ajkimg.com/display/xinfang/243e08e6370b11280dfa79b0a54c718d/275x206n.jpg";
+developer =                 (
+"\U5e7f\U5dde\U5e02\U5146\U660c\U623f\U5730\U4ea7\U5f00\U53d1\U6709\U9650\U516c\U53f8"
+);
+dongtai =                 (
+{
+category = "\U5f85\U552e";
+created = 1414033560;
+id = 554089;
+title = "\U4e3b\U63a86\U7c73\U5c42\U9ad8\U590d\U5f0f\U6237\U578b";
+url = "http://gz.fang.anjuke.com/dongtai/2014-10-23/554089.html";
+}
+);
+"fitment_type" = "\U7cbe\U88c5\U4fee";
+"has_sale" = 0;
+"house_type_count" = 2;
+"house_types" =                 (
+{
+alias = "4\U5ba42\U53852\U536b";
+area = "85.00";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/ff2eef5788b365541279a917c41e0389/300x300.jpg";
+description = "85\U5e73\U7c73\U56db\U623f\U4e24\U5385\U4e09\U536b\U590d\U5f0f\U4ea7\U54c1\Uff0c\U6237\U578b\U7ed3\U6784\U8bbe\U8ba1\U76f8\U5f53\U521b\U65b0\U522b\U81f4\U5408\U7406\Uff0c\U95f4\U9694\U65b9\U6b63\U5b9e\U7528\Uff0c\U5927\U90e8\U5206\U5355\U4f4d\U53ef\U4fef\U770b\U8d85\U5927\U578b\U6c34\U666f\U56ed\U6797\U3002";
+id = 109143;
+name = "\U4f73\U5146\U4e1a\U57ce\U5e02\U5e7f\U573aA\U6237\U578b";
+orient = "\U5357";
+"room_alias" = "4\U5c45\U5ba4";
+},
+{
+alias = "3\U5ba42\U53852\U536b";
+area = "83.00";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/8a3128ccd89379c87cd73d628cf2d977/300x300.jpg";
+description = "";
+id = 109144;
+name = "\U4f73\U5146\U4e1a\U57ce\U5e02\U5e7f\U573aH\U6237\U578b";
+orient = "\U5357";
+"room_alias" = "3\U5c45\U5ba4";
+}
+);
+"is_sales_market" = 0;
+"is_sales_promotion" = 0;
+"kaipan_date" = 1412006400;
+"kaipan_new_date" = "2014-10";
+kft =                 {
+};
+lat = "23.105214";
+lng = "113.55104";
+"loop_line" = "";
+"loupan_id" = 252379;
+"loupan_name" = "\U4f73\U5146\U4e1a\U57ce\U5e02\U5e7f\U573a";
+"map_distance" = "*";
+"map_distance_num" = 0;
+"metro_info" = "13\U53f7\U7ebf";
+"phone_400_ext" = 29214;
+"phone_400_main" = "400 890 2828";
+price = 0;
+"price_range" =                 {
+"city_id" = 12;
+flag = 1;
+id = 121;
+lowerlimit = 0;
+rank = 0;
+title = "\U552e\U4ef7\U5f85\U5b9a";
+upperlimit = 1;
+};
+"prop_num" = 0;
+"region_id" = 286;
+"region_title" = "\U9ec4\U57d4";
+"sale_tag" = 0;
+spinyin = gz;
+"status_sale" = 7;
+"sub_region_id" = 291;
+"sub_region_title" = "\U841d\U5c97";
+tags = "13\U53f7\U7ebf,\U7cbe\U88c5\U4fee,\U521a\U9700\U623f,\U6d0b\U623f,\U5e26\U6cf3\U6c60";
+tese = "\U9ec4\U57d4\U9996\U4e2a\U5927\U578b\U590d\U5408\U751f\U6d3b\U4f53";
+tuangou =                 {
+};
+},
+{
+"activity_tags" =                 {
+kaipan = 0;
+kft = 0;
+tuangou = 0;
+};
+address = "\U756a\U79ba\U5357\U5927\U8def168\U53f7(\U534e\U5357\U5feb\U901f\U5e72\U7ebf\U756a\U79ba\U5927\U6865\U4e1c\U4fa7)";
+"baidu_lat" = "23.018146634883";
+"baidu_lng" = "113.35470080289";
+"build_type" = "\U5c0f\U9ad8\U5c42,\U9ad8\U5c42,\U72ec\U680b\U522b\U5885,\U8054\U6392\U522b\U5885";
+"city_id" = 12;
+"default_image" = "http://c.pic1.ajkimg.com/display/xinfang/bf38108b99e1349fbdb5937a5ca252a5/275x206n.jpg";
+developer =                 (
+"\U5408\U751f\U521b\U5c55\U96c6\U56e2\U6709\U9650\U516c\U53f8"
+);
+dongtai =                 (
+{
+category = "\U5728\U552e";
+created = 1413777480;
+id = 552776;
+title = "\U7cbe\U88c5\U5747\U4ef715500\U5143/\U5e73";
+url = "http://gz.fang.anjuke.com/dongtai/2014-10-20/552776.html";
+},
+{
+category = "\U5728\U552e";
+created = 1412762460;
+id = 547462;
+title = "N+1\U6d0b\U623f13700\U5143/\U5e73\U8d77";
+url = "http://gz.fang.anjuke.com/dongtai/2014-10-08/547462.html";
+}
+);
+"fitment_type" = "\U7cbe\U88c5\U4fee";
+"has_sale" = 0;
+"house_type_count" = 11;
+"house_types" =                 (
+{
+alias = "3\U5ba42\U53852\U536b";
+area = "143.00";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/4124634e7e4ac7cd16a22ee24b59e5d5/300x300.jpg";
+description = "3\U623f2\U53852\U536b\U53cc\U9633\U53f0142\U5e73\U5927\U6237\U578b\U8c6a\U5b85\Uff0c\U6237\U578b\U65b9\U6b63\U5b9e\U7528\Uff0c\U52a8\U9759\U5206\U79bb\Uff0c\U4e3b\U5367\U623f\U8bbe\U6709\U72ec\U7acb\U536b\U6d74\U548c\U5357\U5411\U98d8\U7a97\Uff0c\U751f\U6d3b\U8d77\U5c45\U66f4\U79c1\U5bc6\U3002";
+id = 108264;
+name = "\U6c5f\U5c71\U9890\U666f3-4\U680b02\U6237\U578b";
+orient = "\U5357";
+"room_alias" = "3\U5c45\U5ba4";
+},
+{
+alias = "3\U5ba42\U53852\U536b";
+area = "142.00";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/930849ef2c665d33194edda78111d3c7/300x300.jpg";
+description = "\U8c6a\U534e\U4e3b\U5367\U5957\U95f4\U8bbe\U8ba1\Uff0c\U79c1\U5bc6\U6027\U66f4\U4f73\Uff0c\U5927\U6237\U578b\Uff0c\U9002\U5408\U6539\U5584\U6027\U4e70\U5bb6\U8d2d\U4e70";
+id = 108299;
+name = "\U6c5f\U5c71\U9890\U666f3-1\U680b0103";
+orient = "\U5357";
+"room_alias" = "3\U5c45\U5ba4";
+},
+{
+alias = "2\U5ba42\U53852\U536b";
+area = "120.00";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/2b0c96a3a4eeae417833aa1befe2792d/300x300.jpg";
+description = "\U53cc\U5367\U5206\U7acb\U5357\U5317\Uff0c\U8c6a\U534e\U4e3b\U5367\U5957\U623f\U8bbe\U8ba1\Uff0c\U5357\U5317\U53cc\U9633\U53f0\Uff0c\U4eab\U65e0\U9650\U81ea\U7136\U9633\U5149\Uff0c\U5165\U6237\U53ef\U89c1\U7a7a\U4e2d\U82b1\U56ed\Uff0c\U5ef6\U666f\U5165\U5ba4\U3002";
+id = 108298;
+name = "\U6c5f\U5c71\U9890\U666f1-2\U680b0304";
+orient = "\U5357";
+"room_alias" = "2\U5c45\U5ba4";
+}
+);
+"is_sales_market" = 0;
+"is_sales_promotion" = 0;
+"kaipan_date" = 1411574400;
+"kaipan_new_date" = "2014-09-25";
+kft =                 {
+};
+lat = "23.012460076924";
+lng = "113.34815740585";
+"loop_line" = "";
+"loupan_id" = 239380;
+"loupan_name" = "\U534e\U5357\U65b0\U57ce";
+"map_distance" = "*";
+"map_distance_num" = 0;
+"metro_info" = "3\U53f7\U7ebf";
+"phone_400_ext" = 11790;
+"phone_400_main" = "400 890 2828";
+price = 13700;
+"price_range" =                 {
+"city_id" = 12;
+flag = 1;
+id = 124;
+lowerlimit = 10000;
+rank = 3;
+title = "1-1.5\U4e07";
+upperlimit = 15000;
+};
+"prop_num" = 43;
+"region_id" = 269;
+"region_title" = "\U756a\U79ba";
+"sale_tag" = 0;
+spinyin = gz;
+"status_sale" = 3;
+"sub_region_id" = 273;
+"sub_region_title" = "\U534e\U5357";
+tags = "3\U53f7\U7ebf,\U7cbe\U88c5\U4fee,\U4f4e\U5bc6\U5ea6,\U6d0b\U623f,\U5927\U578b\U793e\U533a";
+tese = "\U534e\U5357\U677f\U5757\U5927\U578b\U6210\U719f\U793e\U533a\Uff0c\U914d\U5957\U5b8c\U5584";
+tuangou =                 {
+};
+},
+{
+"activity_tags" =                 {
+kaipan = 0;
+kft = 0;
+tuangou = 0;
+};
+address = "\U8f66\U9642\U5e7f\U68e0\U897f\U8def\U5317\U9762";
+"baidu_lat" = "23.141467752234";
+"baidu_lng" = "113.39993458896";
+"build_type" = "\U591a\U5c42,\U5c0f\U9ad8\U5c42";
+"city_id" = 12;
+"default_image" = "http://b.pic1.ajkimg.com/display/xinfang/e01d81bcd93c2cc189b8f05561efe695/275x206n.jpg";
+developer =                 (
+"\U5e7f\U5dde\U5e02\U5929\U5065\U5174\U4e1a\U623f\U5730\U4ea7\U5f00\U53d1\U6709\U9650\U516c\U53f8"
+);
+dongtai =                 (
+{
+category = "\U5728\U552e";
+created = 1413777660;
+id = 552777;
+title = "\U4e00\U53e3\U4ef720100\U5143/\U5e73";
+url = "http://gz.fang.anjuke.com/dongtai/2014-10-20/552777.html";
+},
+{
+category = "\U5728\U552e";
+created = 1412825880;
+id = 547826;
+title = "\U76ee\U524d\U5728\U552e2-4\U623f";
+url = "http://gz.fang.anjuke.com/dongtai/2014-10-09/547826.html";
+}
+);
+"fitment_type" = "\U6bdb\U576f";
+"has_sale" = 0;
+"house_type_count" = 11;
+"house_types" =                 (
+{
+alias = "2\U5ba42\U53851\U536b";
+area = "74.70";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/6856c9ed32662c0d8b09a5779b52940a/300x300.jpg";
+description = "\U679c\U5bd3\U7ec4\U56e2G4\U6237\U578b\Uff0c\U5efa\U7b51\U9762\U79ef74.7\U5e73\U7c73\Uff0c2\U5ba42\U53851\U536b1\U53a8\Uff0c\U529f\U80fd\U5206\U533a\U5408\U7406\Uff0c\U5367\U623f\U5747\U5e26\U98d8\U7a97\Uff0c\U89c6\U91ce\U5f00\U9614\U3002";
+id = 107611;
+name = "\U679c\U5bd3G4\U6237\U578b2\U5ba42\U53851\U536b";
+orient = "\U5357";
+"room_alias" = "2\U5c45\U5ba4";
+},
+{
+alias = "2\U5ba42\U53851\U536b";
+area = "72.70";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/ecaeb5c8ca1e63ed698c4dd28d5a19f8/300x300.jpg";
+description = "72.7\U5e73\U65b9\U7c732\U5ba42\U53851\U536b1\U53a8\Uff0c\U6237\U578b\U7d27\U51d1\U5b9e\U7528\Uff0c\U5367\U623f\U7a7a\U95f4\U8f83\U5927\Uff0c\U98d8\U7a97\U8bbe\U8ba1\Uff0c\U91c7\U5149\U901a\U98ce\U597d\U3002";
+id = 107609;
+name = "\U679c\U5bd3G3\U6237\U578b2\U5ba42\U53851\U536b";
+orient = "\U5357";
+"room_alias" = "2\U5c45\U5ba4";
+},
+{
+alias = "2\U5ba42\U53851\U536b";
+area = "60.91";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/5c7b547e79719f5cd05d2c8dce992a1b/300x300.jpg";
+description = "60.91\U5e73\U7c732\U5ba42\U53851\U536b1\U53a8\U6237\U578b\Uff0c\U4e0eG1\U6237\U578b\U76f8\U4f3c\Uff0c\U6237\U578b\U65b9\U6b63\U5b9e\U7528\Uff0c\U9633\U53f0\U5ba2\U5385\U9910\U5385\U76f8\U8fde\Uff0c\U5357\U5317\U901a\U900f\Uff0c\U91c7\U5149\U901a\U98ce\U597d\Uff0c\U6d3b\U52a8\U7a7a\U95f4\U5927\Uff0c\U5367\U623f\U5e26\U98d8\U7a97\U8bbe\U8ba1\Uff0c\U89c6\U91ce\U5f00\U9614\U3002";
+id = 107606;
+name = "\U679c\U5bd3G2\U6237\U578b2\U5ba42\U53851\U536b";
+orient = "\U5357";
+"room_alias" = "2\U5c45\U5ba4";
+}
+);
+"is_sales_market" = 0;
+"is_sales_promotion" = 0;
+"kaipan_date" = 1410537600;
+"kaipan_new_date" = "2014-09-13";
+kft =                 {
+};
+lat = "23.135150825346";
+lng = "113.39351892471";
+"loop_line" = "";
+"loupan_id" = 245237;
+"loupan_name" = "\U5929\U5065\U4e0a\U57ce";
+"map_distance" = "*";
+"map_distance_num" = 0;
+"metro_info" = "5\U53f7\U7ebf";
+"phone_400_ext" = 18072;
+"phone_400_main" = "400 890 2828";
+price = 20000;
+"price_range" =                 {
+"city_id" = 12;
+flag = 1;
+id = 125;
+lowerlimit = 15000;
+rank = 4;
+title = "1.5-2\U4e07";
+upperlimit = 20000;
+};
+"prop_num" = 52;
+"region_id" = 201;
+"region_title" = "\U5929\U6cb3";
+"sale_tag" = 0;
+spinyin = gz;
+"status_sale" = 3;
+"sub_region_id" = 211;
+"sub_region_title" = "\U8f66\U9642";
+tags = "5\U53f7\U7ebf,\U521a\U9700\U623f,\U8c6a\U5b85,\U666f\U89c2\U5c0f\U533a,\U533b\U9662";
+tese = "\U5929\U6cb3\U7a00\U7f3a\U7684\U5927\U578b\U4f4e\U5bc6\U5ea6\U82b1\U56ed\U5c0f\U533a";
+tuangou =                 {
+};
+},
+{
+"activity_tags" =                 {
+kaipan = 0;
+kft = 0;
+tuangou = 0;
+};
+address = "\U5f00\U521b\U5927\U9053\U4e0e\U79d1\U4e30\U8def\U4ea4\U6c47\U5904";
+"baidu_lat" = "23.172172510268";
+"baidu_lng" = "113.47219653565";
+"build_type" = "\U9ad8\U5c42";
+"city_id" = 12;
+"default_image" = "http://b.pic1.ajkimg.com/display/xinfang/e4cd2694e4073d913dc2f42d03efb41f/275x206n.jpg";
+developer =                 (
+"\U5927\U58ee\U96c6\U56e2"
+);
+dongtai =                 (
+{
+category = "\U5728\U552e";
+created = 1413861540;
+id = 553238;
+title = "\U65b0\U54c1\U5305\U62ecloft\U4e0e\U5e73\U5c42\U516c\U5bd3";
+url = "http://gz.fang.anjuke.com/dongtai/2014-10-21/553238.html";
+},
+{
+category = "\U5728\U552e";
+created = 1411632180;
+id = 543704;
+title = "\U56fd\U5e86\U671f\U95f4\U63a8\U51fa\U4e09\U671f\U4e2d\U4f4e\U697c\U5c42\U516c\U5bd3";
+url = "http://gz.fang.anjuke.com/dongtai/2014-09-25/543704.html";
+}
+);
+"fitment_type" = "\U6bdb\U576f,\U7cbe\U88c5\U4fee";
+"has_sale" = 0;
+"house_type_count" = 4;
+"house_types" =                 (
+{
+alias = "1\U5ba41\U53851\U536b";
+area = "35.94";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/44fb611b7fcfcae17d3308ae0745f00d/300x300.jpg";
+description = "\U5927\U58ee\U56fd\U9645\U5e7f\U573aG201\U6237\U578b\Uff0c1\U5c451\U53851\U536b\U6237\U578b\Uff0c\U5efa\U7b51\U9762\U79ef\U4e3a35.94\U5e73\U7c73\U3002";
+id = 96425;
+name = "G201\U6237\U578b";
+orient = "\U5357";
+"room_alias" = "1\U5c45\U5ba4";
+},
+{
+alias = "\U5546\U4f4f";
+area = "42.00";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/dad4ee395bb4f1b841a1370ec69643b8/300x300.jpg";
+description = "\U5927\U58ee\U56fd\U9645\U5e7f\U573aG302\U6237\U578b\U56fe\Uff0c\U6237\U578b\U683c\U5c40\U4e3a\U4e00\U623f\U4e00\U5385\U536b\Uff0c\U5efa\U7b51\U9762\U79ef\U4e3a40.78\U5e73\U65b9\U7c73\U3002";
+id = 105315;
+name = G31021;
+orient = "\U5357";
+"room_alias" = "\U5f00\U95f4";
+},
+{
+alias = "1\U5ba41\U53851\U536b";
+area = "40.78";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/2aaab0ede1516c75c2ffdf178bed3fd3/300x300.jpg";
+description = "\U5927\U58ee\U56fd\U9645\U5e7f\U573aG302\U6237\U578b\Uff0c\U6237\U578b\U683c\U5c40\U4e3a1\U5c451\U53851\U536b\Uff0c\U5efa\U7b51\U9762\U79ef\U4e3a40.78\U5e73\U7c73\U3002";
+id = 96424;
+name = "G302\U6237\U578b";
+orient = "\U5357";
+"room_alias" = "1\U5c45\U5ba4";
+}
+);
+"is_sales_market" = 0;
+"is_sales_promotion" = 0;
+"kaipan_date" = 1406217600;
+"kaipan_new_date" = "2014-07-25";
+kft =                 {
+};
+lat = "23.16649692279";
+lng = "113.46562348944";
+"loop_line" = "";
+"loupan_id" = 250609;
+"loupan_name" = "\U5927\U58ee\U56fd\U9645\U5e7f\U573a";
+"map_distance" = "*";
+"map_distance_num" = 0;
+"metro_info" = "6\U53f7\U7ebf";
+"phone_400_ext" = 23707;
+"phone_400_main" = "400 890 2828";
+price = 11000;
+"price_range" =                 {
+"city_id" = 12;
+flag = 1;
+id = 124;
+lowerlimit = 10000;
+rank = 3;
+title = "1-1.5\U4e07";
+upperlimit = 15000;
+};
+"prop_num" = 0;
+"region_id" = 286;
+"region_title" = "\U9ec4\U57d4";
+"sale_tag" = 0;
+spinyin = gz;
+"status_sale" = 3;
+"sub_region_id" = 291;
+"sub_region_title" = "\U841d\U5c97";
+tags = "\U6295\U8d44\U5730\U4ea7,\U5546\U573a,loft,\U9601\U697c,\U4e0d\U9650\U8d2d";
+tese = "\U841d\U5c97\U533a\U9996\U4e2a\U591a\U529f\U80fd\U7684\U201c\U57ce\U5e02\U7efc\U5408\U4f53\U201d";
+tuangou =                 {
+};
+},
+{
+"activity_tags" =                 {
+kaipan = 0;
+kft = 0;
+tuangou = 0;
+};
+address = "\U4e1c\U4e61\U6751\U4e09\U652f\U9999\U6c34\U9053\U5357\U4fa7\U5730\U5757\Uff0c\U4e3d\U6c5f\U82b1\U56ed\U5fb7\U5b87\U697c\U897f\U4fa7";
+"baidu_lat" = "23.043582099681";
+"baidu_lng" = "113.30311837475";
+"build_type" = "\U9ad8\U5c42";
+"city_id" = 12;
+"default_image" = "http://a.pic1.ajkimg.com/display/xinfang/4b146b8059787997eee4a27c54bafa07/275x206n.jpg";
+developer =                 (
+"\U7ca4\U6d77\U623f\U5730\U4ea7\U5f00\U53d1(\U4e2d\U56fd)\U6709\U9650\U516c\U53f8"
+);
+dongtai =                 (
+{
+category = "\U5f85\U552e";
+created = 1413862680;
+id = 553255;
+title = "\U6237\U578b\U6db5\U76d685-138\U5e732-4\U623f";
+url = "http://gz.fang.anjuke.com/dongtai/2014-10-21/553255.html";
+},
+{
+category = "\U5f85\U552e";
+created = 1411607160;
+id = 543411;
+title = "\U9884\U8ba110\U6708\U4efd\U5f00\U76d8";
+url = "http://gz.fang.anjuke.com/dongtai/2014-09-25/543411.html";
+}
+);
+"fitment_type" = "\U7cbe\U88c5\U4fee";
+"has_sale" = 0;
+"house_type_count" = 0;
+"house_types" =                 (
+);
+"is_sales_market" = 0;
+"is_sales_promotion" = 0;
+"kaipan_date" = "";
+"kaipan_new_date" = "";
+kft =                 {
+};
+lat = "23.037364154944";
+lng = "113.29666549892";
+"loop_line" = "";
+"loupan_id" = 249643;
+"loupan_name" = "\U5982\U82f1\U5c45";
+"map_distance" = "*";
+"map_distance_num" = 0;
+"metro_info" = "";
+"phone_400_ext" = 22721;
+"phone_400_main" = "400 890 2828";
+price = 0;
+"price_range" =                 {
+"city_id" = 12;
+flag = 1;
+id = 121;
+lowerlimit = 0;
+rank = 0;
+title = "\U552e\U4ef7\U5f85\U5b9a";
+upperlimit = 1;
+};
+"prop_num" = 0;
+"region_id" = 269;
+"region_title" = "\U756a\U79ba";
+"sale_tag" = 0;
+spinyin = gz;
+"status_sale" = 7;
+"sub_region_id" = 270;
+"sub_region_title" = "\U6d1b\U6eaa";
+tags = "\U7cbe\U88c5\U4fee,\U6539\U5584\U623f,\U54c1\U724c\U5f00\U53d1\U5546,\U666f\U89c2\U5c0f\U533a,\U5927\U578b\U793e\U533a";
+tese = "\U4e30\U5bcc\U7684\U793e\U533a\U8d44\U6e90";
+tuangou =                 {
+};
+},
+{
+"activity_tags" =                 {
+kaipan = 0;
+kft = 0;
+tuangou = 0;
+};
+address = "\U79d1\U5b66\U57ce\U5f00\U6cf0\U5927\U9053\U4e0e\U5f00\U6e90\U5927\U9053\U4ea4\U6c47\U5904\Uff08\U5e7f\U5dde\U690d\U7269\U56ed\U897f\U4fa7\Uff09";
+"baidu_lat" = "23.162241783032";
+"baidu_lng" = "113.51272260507";
+"build_type" = "\U9ad8\U5c42";
+"city_id" = 12;
+"default_image" = "http://b.pic1.ajkimg.com/display/xinfang/10c7c0c843da15f6836be6abaafc9e4f/275x206n.jpg";
+developer =                 (
+"\U5e7f\U5dde\U5e02\U4e07\U5c1a\U623f\U5730\U4ea7\U6709\U9650\U516c\U53f8",
+"\U5e7f\U5dde\U5e02\U4e07\U6021\U623f\U5730\U4ea7\U6709\U9650\U516c\U53f8"
+);
+dongtai =                 (
+{
+category = "\U5728\U552e";
+created = 1413775500;
+id = 552745;
+title = "\U8d2d\U623f\U514d10\U5e74\U7ba1\U7406\U8d39";
+url = "http://gz.fang.anjuke.com/dongtai/2014-10-20/552745.html";
+},
+{
+category = "\U5728\U552e";
+created = 1412739900;
+id = 546507;
+title = "3-4\U623f\U65b0\U54c11.4\U4e07/\U5e73\U8d77";
+url = "http://gz.fang.anjuke.com/dongtai/2014-10-08/546507.html";
+}
+);
+"fitment_type" = "\U7cbe\U88c5\U4fee";
+"has_sale" = 0;
+"house_type_count" = 25;
+"house_types" =                 (
+{
+alias = "4\U5ba42\U53852\U536b";
+area = "123.00";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/a5d5e92647b75264eb05cfe8bd026666/300x300.jpg";
+description = "\U4e07\U79d1\U4e1c\U835f\U57ceA20\U680b05\U6237\U578b123\U5e73\U7c734\U5c452\U53852\U536b\Uff0c\U4e1c\U5357\U671d\U5411\Uff0c\U8be5\U6237\U578b\U65b9\U6b63\U5b9e\U7528\Uff0c\U52a8\U9759\U5206\U533a\Uff0c\U5e72\U6e7f\U5206\U533a\Uff0c\U4e3b\U5367\U5ba4\U5e26\U6709\U72ec\U7acb\U7684\U536b\U751f\U5957\U95f4\Uff0c\U63d0\U9ad8\U4e86\U5c45\U4f4f\U7684\U8212\U9002\U5ea6\U3002";
+id = 65340;
+name = "A20\U680b05\U6237\U578b";
+orient = "\U4e1c\U5357";
+"room_alias" = "4\U5c45\U5ba4";
+},
+{
+alias = "3\U5ba42\U53852\U536b";
+area = "100.00";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/b07a41af4b6b5010466f9a8bcfeb0179/300x300.jpg";
+description = "\U4e07\U79d1\U4e1c\U835f\U57ceA20\U680b03\U6237\U578b100\U5e73\U7c733\U5c452\U53852\U536b\U6237\U578b\U56fe\Uff0c\U8be5\U6237\U578b\U65b9\U6b63\U5b9e\U7528\Uff0c\U52a8\U9759\U5206\U533a\Uff0c\U5e72\U6e7f\U5206\U533a\Uff0c\U4e3b\U5367\U5ba4\U5e26\U6709\U72ec\U7acb\U7684\U536b\U751f\U5957\U95f4\Uff0c\U63d0\U9ad8\U4e86\U5c45\U4f4f\U7684\U8212\U9002\U5ea6\Uff0c\U5355\U9633\U53f0\U8bbe\U8ba1\Uff0c\U666f\U89c2\U9633\U53f0\U91c7\U5149\U548c\U89c2\U666f\U6548\U679c\U4ff1\U4f73\Uff0c\U7f3a\U5c11\U751f\U6d3b\U9633\U53f0\Uff0c\U8fd9\U662f\U4e00\U4e2a\U4e2a\U5c0f\U5c0f\U7684\U7455\U75b5\U3002\U8be5\U6237\U578b\U8f83\U4e3a\U9002\U5408\U9996\U6b21\U7f6e\U4e1a\U7684\U521a\U9700\U8d2d\U623f\U8005\U3002";
+id = 65339;
+name = "A20\U680b03\U6237\U578b";
+orient = "\U4e1c\U5357";
+"room_alias" = "3\U5c45\U5ba4";
+},
+{
+alias = "3\U5ba42\U53852\U536b";
+area = "95.00";
+"default_image" = "http://pic1.ajkimg.com/display/xinfang/df717feeb43fee9495753daf24f35faa/300x300.jpg";
+description = "\U4e07\U79d1\U4e1c\U835f\U57ceC11\U680b06\U6237\U578b95\U5e73\U7c733\U5c452\U53852\U536b\Uff0c\U8be5\U6237\U578b\U65b9\U6b63\U5b9e\U7528\Uff0c\U5357\U5317\U901a\U900f\Uff0c\U52a8\U9759\U5206\U533a\Uff0c\U5e72\U6e7f\U5206\U533a\Uff0c\U4e3b\U5367\U5ba4\U5e26\U6709\U72ec\U7acb\U7684\U536b\U751f\U5957\U95f4\Uff0c\U63d0\U9ad8\U4e86\U5c45\U4f4f\U7684\U8212\U9002\U5ea6\U3002";
+id = 108577;
+name = "C11\U680b06\U6237\U578b";
+orient = "\U5317";
+"room_alias" = "3\U5c45\U5ba4";
+}
+);
+"is_sales_market" = 0;
+"is_sales_promotion" = 0;
+"kaipan_date" = 1324656000;
+"kaipan_new_date" = "2011-12-24";
+kft =                 {
+};
+lat = "23.155986260997";
+lng = "113.5062789917";
+"loop_line" = "";
+"loupan_id" = 241023;
+"loupan_name" = "\U4e07\U79d1\U4e1c\U835f\U57ce";
+"map_distance" = "*";
+"map_distance_num" = 0;
+"metro_info" = "6\U53f7\U7ebf";
+"phone_400_ext" = 13541;
+"phone_400_main" = "400 890 2828";
+price = 15000;
+"price_range" =                 {
+"city_id" = 12;
+flag = 1;
+id = 124;
+lowerlimit = 10000;
+rank = 3;
+title = "1-1.5\U4e07";
+upperlimit = 15000;
+};
+"prop_num" = 54;
+"region_id" = 286;
+"region_title" = "\U9ec4\U57d4";
+"sale_tag" = 0;
+spinyin = gz;
+"status_sale" = 3;
+"sub_region_id" = 291;
+"sub_region_title" = "\U841d\U5c97";
+tags = "6\U53f7\U7ebf,\U7cbe\U88c5\U4fee,\U521a\U9700\U623f,\U4f4e\U5bc6\U5ea6,\U5546\U573a";
+tese = "\U77e5\U8bc6\U57ce\U677f\U5757\U54c1\U724c\U5927\U76d8\Uff0c\U4e3b\U6253\U4e2d\U5c0f\U6237\U578b\U6d0b\U623f\U5355\U4f4d";
+tuangou =                 {
+};
+}
+);
+total = 841;
+};
+status = true;
+}

@@ -1,0 +1,35 @@
+{
+result =     (
+{
+"cate_id" = 0;
+"cate_name" = "\U5b98\U65b9\U516c\U544a";
+"cate_type" = 1;
+"city_id" = 12;
+},
+{
+"cate_id" = 1219;
+"cate_name" = "\U533a\U57df\U2022\U5730\U6bb5";
+"cate_type" = 2;
+"city_id" = 12;
+},
+{
+"cate_id" = 1220;
+"cate_name" = "\U91cf\U8eab\U2022\U9009\U623f";
+"cate_type" = 2;
+"city_id" = 12;
+},
+{
+"cate_id" = 1221;
+"cate_name" = "\U65b0\U54c1\U2022\U7279\U60e0\U2022\U5e02\U573a";
+"cate_type" = 2;
+"city_id" = 12;
+},
+{
+"cate_id" = 1222;
+"cate_name" = "\U70ed\U70b9\U2022\U8bdd\U9898\U2022\U6742\U8c08";
+"cate_type" = 2;
+"city_id" = 12;
+}
+);
+status = true;
+}

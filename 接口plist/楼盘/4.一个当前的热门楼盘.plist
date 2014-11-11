@@ -1,0 +1,28 @@
+{
+result =     {
+"build_type" = "\U9ad8\U5c42";
+chanquan = "70\U5e74";
+company = "\U4e09\U4e9a\U548c\U6cd3\U623f\U5730\U4ea7\U5f00\U53d1\U6709\U9650\U516c\U53f8";
+"developer_name" = "\U4e09\U4e9a\U548c\U6cd3\U623f\U5730\U4ea7\U5f00\U53d1\U6709\U9650\U516c\U53f8,\U548c\U6cd3\U5730\U4ea7";
+"fitment_type" = "\U7cbe\U88c5\U4fee,\U62ce\U5305\U5165\U4f4f";
+gaishu = "\U548c\U6cd3\U5047\U65e5\U9633\U5149\U5360\U5730176\U4ea9\Uff0c\U603b\U5efa\U7b51\U9762\U79ef41\U4e07\U65b9\Uff0c\U603b\U5171\U5206\U4e3a5\U671f\U5f00\U53d1\Uff0c\U753111\U680b\U7cbe\U88c5\U677f\U5f0f\U9ad8\U5c42\Uff0c\U6982\U5ff5\U98ce\U60c5\U9152\U5e97\Uff0cMINI\U5546\U4e1a\U8857\Uff0c\U4ee5\U53ca\U793e\U533a\U533b\U7597\U4e2d\U5fc3\U548c\U56fd\U9645\U53cc\U8bed\U5e7c\U513f\U56ed\U5171\U540c\U7ec4\U6210\U3002\U5c0f\U533a\U4e00\U5171\U67093\U4e2a\U51fa\U5165\U53e3\Uff0c\U5168\U90e8\U5b9e\U884c\U4eba\U8f66\U5206\U6d41\U3002\U5728\U5c0f\U533a\U5185\U90e8\Uff0c\U62e5\U6709\U8d857\U4e07\U65b9\U7684\U4e2d\U5ead\U56ed\U6797\U666f\U89c2\Uff0c\U7eff\U5316\U7387\U8d8560%\U3002\U9664\U6b64\U4e4b\U5916\Uff0c\U5c0f\U533a\U80cc\U9760\U9752\U5c71\Uff0c\U8fd9\U91cc\U68ee\U6797\U73af\U62b1\Uff0c\U4f1a\U6e90\U6e90\U8f93\U9001\U6bcf\U5e73\U65b9\U5398\U7c7320000\U4e2a\U8d1f\U6c27\U79bb\U5b50\Uff0c\U4fe8\U7136\U5929\U7136\U6c27\U5427\U3002";
+investor = "\U548c\U6cd3\U5730\U4ea7";
+"jianzhu_area" = 415000;
+"jiaofang_date" = "2014-12-31";
+"kaipan_date" = "2012-10-02";
+"loupan_id" = 244843;
+"loupan_name" = "\U548c\U6cd3\U5047\U65e5\U9633\U5149";
+lvhua = 61;
+park = 2500;
+"park_rate" = "\U505c\U8f66\U4f4d:2500\U4e2a";
+"phone_400_ext" = 17656;
+"phone_400_main" = "400 609 3366";
+"price_max" = "";
+"price_min" = "2.85";
+"property_type" = "\U4f4f\U5b85,\U522b\U5885";
+rongji = "3.0";
+yonghu = 5000;
+"zhandi_area" = 117000;
+};
+status = true;
+}

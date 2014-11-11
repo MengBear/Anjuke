@@ -1,15 +1,19 @@
 //
 //  AppDelegate.h
-//  Anjuke
+//  Aujuke
 //
-//  Created by 6006 on 14-11-11.
+//  Created by 6006 on 14-11-5.
 //  Copyright (c) 2014年 ibokan. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import <CoreLocation/CoreLocation.h>//定位
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,CLLocationManagerDelegate>
+{
+    CLLocationManager * _locationManager;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
