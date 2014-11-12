@@ -14,8 +14,11 @@
     UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.frame = CGRectMake(0, 0, 15, 25);
     [btn setImage:[UIImage imageNamed:@"details_arrow_left.png"] forState:UIControlStateNormal];
-      [btn addTarget:vc action:@selector(back:) forControlEvents:UIControlEventTouchUpInside];
+    [btn addTarget:vc action:@selector(back:) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem * bar = [[UIBarButtonItem alloc] initWithCustomView:btn];
     return bar;
 }
+
+
+
 @end

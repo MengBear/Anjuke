@@ -10,7 +10,7 @@
 
 @interface InformationViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong)NSString *     cityID;                 //城市ID
-@property(nonatomic,strong)NSArray * dataSource;             //数据源
+@property(nonatomic,strong)NSMutableArray * dataSource;             //数据源
 @property(nonatomic,strong)NSString *     cityName;               //城市名字
 @property(nonatomic,strong)UITableView *  tableView;
 @end

@@ -8,6 +8,7 @@
 
 #import "HomePageTableViewController.h"
 #import "Header.h"
+#import "Createtool.h"
 
 
 #define NameImgViewWidth   80                              //标题名字图片宽度
@@ -37,6 +38,12 @@
     self.dataSource = [GainDataSource shuJuYuan:ForMoreInformation(self.cityID, 5)];
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+    self.navigationController.navigationBarHidden = YES;
+    self.tableView.showsVerticalScrollIndicator = NO;
+}
+
 - (void)viewDidLoad {
     
     [super viewDidLoad];
@@ -47,8 +54,8 @@
     }
     [self refreshData];
     
-    self.tableView.showsVerticalScrollIndicator = NO;
-    self.navigationController.navigationBarHidden = YES;
+    
+    
 }
 #pragma mark - 刷新数据
 -(void)refreshData

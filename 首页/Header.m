@@ -10,6 +10,8 @@
 #import "NewHouse.h"
 #import "Building.h"
 #import "CityViewController.h"
+#import "InformationViewController.h"
+#import "RecommendViewController.h"
 #define NameImgViewWidth   80                              //标题名字图片宽度
 #define NameImgViewHeight  20                              //标题名字图片高度
 #define RegionButWidth     50                              //地区按钮宽度
@@ -220,6 +222,19 @@
         {
             Building *bud = [Building new];
             [self.Navi pushViewController:bud animated:YES];
+        }
+            break;
+        case 102:
+        {
+            InformationViewController * information = [InformationViewController new];
+            information.cityID = self.cityID;
+            [self.Navi pushViewController:information animated:YES];
+        }
+        case 103:
+        {
+            RecommendViewController * recommend = [RecommendViewController new];
+            recommend.cityID = self.cityID;
+            [self.Navi pushViewController:recommend animated:YES];
         }
             break;
         default:

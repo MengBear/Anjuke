@@ -55,10 +55,14 @@
     self.navigationItem.leftBarButtonItem = bar;
 }
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
+-(void)viewWillAppear:(BOOL)animated
+{
     self.navigationController.navigationBarHidden = NO;//显示导航
     self.navigationItem.hidesBackButton = NO;//隐藏系统返回Bar
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
     self.navigationItem.titleView = [CustomNavigationName titleNavigationItem:@"切换城市"];//自定义标题
     [self GetDataSource];//获取数据源
     [self HeadViewLayout];//模拟区布局

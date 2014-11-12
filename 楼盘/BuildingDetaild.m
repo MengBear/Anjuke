@@ -1,33 +1,21 @@
 //
-//  RexommendViewController.m
+//  BuildingDetaild.m
 //  Aujuke
 //
-//  Created by 8025 on 14/11/8.
+//  Created by 6006 on 14-11-10.
 //  Copyright (c) 2014年 ibokan. All rights reserved.
 //
-/*
- //10.查看城市推荐的楼盘 1个参数 <城市ID>
- #define RecommendHouses(cityID) [NSString stringWithFormat:@"http://api.aifang.com/m/android/1.3/loupan/list/?city_id=%@&page=1&page_size=10",cityID]
- */
 
-#import "RecommendViewController.h"
+#import "BuildingDetaild.h"
 
-@interface RecommendViewController ()
+@interface BuildingDetaild ()
 
 @end
 
-@implementation RecommendViewController
-
-#pragma mark - 获取数据
--(void)GetDataSource
-{
-    self.dataSource = [GainDataSource shuJuYuan:RecommendHouses(self.cityID)][@"result"][@"rows"];
-    NSLog(@"%@",self.dataSource);
-}
+@implementation BuildingDetaild
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self GetDataSource];
     // Do any additional setup after loading the view.
 }
 

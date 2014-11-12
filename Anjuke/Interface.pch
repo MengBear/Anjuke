@@ -12,6 +12,7 @@
 #import "JudgeCity.h"
 #import "UIImageView+WebCache.h"
 #import "CustomNavigationName.h"
+#import "Createtool.h"
 
 #define ScreenWidth        [[UIScreen mainScreen] bounds].size.width      //屏幕宽度
 #define ScreenHeight       [[UIScreen mainScreen] bounds].size.height     //屏幕高度
@@ -75,5 +76,11 @@
 //                             —————    我的页面(最后一个页面)    ————
 // 15.登陆到该软件的服务器 2个参数 <密码> <账号>
 #define LandedServer(password,account) [NSString stringWithFormat:@"http://api.aifang.com/m/android/1.3/login/?api_key=androidkey&pass_word=%@E&user_name=%d&sig=babfc1aa20c3b6eb51c4031480a63141&i=a00000361d1846&m=Android-HUAWEI+C8812&o=C8812-user+4.0.3+GRJ90+C92B950+release-keys&cv=4.3&v=4.0.3&cid=-1&app=a-xinfang&pmacid=f3c",password,account]
+
+
+//G－C－D
+#define kBack(block) dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), block)
+#define kMaim(block) dispatch_async(dispatch_get_main_queue(),block)
+
 
 #endif

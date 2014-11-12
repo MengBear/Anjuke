@@ -7,7 +7,7 @@
 //
 
 #import "InformationViewController.h"
-
+#import "DetailedInformationViewController.h"
 @interface InformationViewController ()
 
 
@@ -18,17 +18,38 @@
 #pragma mark - 获取数据源
 -(void)GetDataSource
 {
-    NSArray * cateIDArr = @[@"0",@"1219",@"1220",@"1221",@"1222"];    
-    self.dataSource = [GainDataSource shuJuYuan:ForMoreInformation(self.cityID, 20)][@"result"][@"rows"];
-    NSDictionary * dic = [GainDataSource shuJuYuan:AccessToInformationDetails(cateIDArr[4], @"94293")];
-    //NSLog(@"%@",dic);
-    //NSLog(@"dic = %@",self.dataSource);
-    NSLog(@"%@",dic[@"result"][@"content"]);
+    self.dataSource = [NSMutableArray new];
+    for (int i = 20;; i = i + 20)
+    {
+        NSArray * arr = [GainDataSource shuJuYuan:ForMoreInformation(self.cityID, i)][@"result"][@"rows"];
+        for (int y = i - 20; y < i; y++)
+        {
+            if (![arr[y][@"summary"] isEqualToString:@""] && ![arr[y][@"thumb_image"] isEqualToString:@""])
+            {
+                if (self.dataSource.count < 20)
+                {
+                    [self.dataSource addObject:arr[y]];
+                }
+                else
+                {
+                    return;
+                }
+            }
+        }
+    }
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    self.navigationController.navigationBarHidden = NO;//显示导航
+    self.navigationItem.hidesBackButton = YES;//隐藏系统返回Bar
+    self.navigationItem.leftBarButtonItem = [Createtool createBack:self];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self GetDataSource];
+    self.navigationItem.titleView = [CustomNavigationName titleNavigationItem:@"资讯"];
     self.navigationController.navigationBarHidden = NO;
     _tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
     _tableView.dataSource = self;
@@ -46,7 +67,6 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    NSLog(@"%lu",(unsigned long)self.dataSource.count);
     return self.dataSource.count;
 }
 
@@ -69,36 +89,41 @@
 
     //cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
-    if (![self.dataSource[indexPath.row][@"summary"] isEqualToString:@""] && ![self.dataSource[indexPath.row][@"thumb_image"] isEqualToString:@""])
-    {
-        UIImageView * imageView = [[UIImageView alloc]initWithFrame:CGRectMake(10, 30, 70, 40)];
-        imageView.image = [UIImage imageNamed:@"aifang_46.png"];
-        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-            NSURL * url = [NSURL URLWithString:self.dataSource[indexPath.row][@"thumb_image"]];
-            NSData * data = [[NSData alloc]initWithContentsOfURL:url];
-            UIImage *img = [[UIImage alloc]initWithData:data];
-            imageView.image = img;
-        });
-        [imageView sd_setImageWithURL:self.dataSource[indexPath.row][@"thumb_image"] placeholderImage:[UIImage imageNamed:@"aifang_46.png"]];
-        [cell.contentView addSubview:imageView];
-    }
+    UIImageView * imageView = [[UIImageView alloc]initWithFrame:CGRectMake(10, 30, 80, 60)];
+    [imageView sd_setImageWithURL:self.dataSource[indexPath.row][@"thumb_image"] placeholderImage:[UIImage imageNamed:@"aifang_46.png"]];
+    [cell.contentView addSubview:imageView];
+    
     UILabel * OneText = [[UILabel alloc]initWithFrame:CGRectMake(10, 3, ScreenWidth - 30, 20)];
     OneText.text = self.dataSource[indexPath.row][@"title"];
-    OneText.font = [UIFont systemFontOfSize:15];
+    OneText.font = [UIFont boldSystemFontOfSize:15];
     [cell.contentView addSubview:OneText];
     
+    UILabel * XiangText = [[UILabel alloc]initWithFrame:CGRectMake(10 + CGRectGetWidth(imageView.frame), 0, ScreenWidth - imageView.frame.origin.x - CGRectGetWidth(imageView.frame) - 10, CGRectGetHeight(imageView.frame))];
+    XiangText.text = self.dataSource[indexPath.row][@"summary"];
+    XiangText.textColor = [UIColor grayColor];
+    XiangText.font = [UIFont systemFontOfSize:13];
+    XiangText.numberOfLines = 0;
+    [imageView addSubview:XiangText];
     return cell;
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (![self.dataSource[indexPath.row][@"summary"] isEqualToString:@""] && ![self.dataSource[indexPath.row][@"thumb_image"] isEqualToString:@""])
-    {
-        return 80;
-    }
-    return 40;
+    return 100;
 }
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    DetailedInformationViewController * detailedInformation = [DetailedInformationViewController new];
+    detailedInformation.informID = self.dataSource[indexPath.row][@"id"];
+    [self.navigationController pushViewController:detailedInformation animated:YES];
+    
+}
+
+-(void)back:(id)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
