@@ -32,7 +32,7 @@
     self.navigationItem.leftBarButtonItem = [Createtool createBack:self];
     
     //接收数据
-    _NHReceivedata = [GainDataSource shuJuYuan:InBridalChamberSearchHouse(@"12",1, 10)];
+    _NHReceivedata = [GainDataSource shuJuYuan:InBridalChamberSearchHouse(@"12",1,20)];
     //摘取数据源
     _NewhouseData = _NHReceivedata[@"result"][@"rows"];
 //    NSLog(@"%@",_NewhouseData);
@@ -63,6 +63,16 @@
     
     //self.tableView.separatorInset = UIEdgeInsetsZero;
     self.tableView.tableHeaderView = [self CreateChoosebut];
+    
+    
+    
+    
+    
+    
+}
+-(void)CreateAllData
+{
+
 }
 -(void)back:(id)sender
 {

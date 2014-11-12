@@ -9,6 +9,7 @@
 #import "Building.h"
 #import "UIImageView+WebCache.h"
 #import "Createtool.h"
+#import "BuildingDetaild.h"
 #define ViewWidth self.view.frame.size.width
 @interface Building ()
 
@@ -29,7 +30,7 @@
     self.tableView.dataSource = self;
  
     
-    self.BulidData = [GainDataSource shuJuYuan:SearchCity(@"12")][@"result"][@"rows"];
+    self.BulidData = [GainDataSource shuJuYuan:HotHouses((@"12"),1,20)][@"result"][@"rows"];
     
 }
 -(void)back:(id)sender
@@ -65,15 +66,7 @@
     NSDictionary * dic = self.BulidData[indexPath.row];
     NSString *str = [NSString stringWithFormat:@"%@  %@",dic[@"region_title"],dic[@"address"]];
 //    NSString *str1 = [NSString stringWithFormat:@"%@%@平米",dic[@"room_alias"],dic[@"prop_area"]];
-   
-    
     NSString *str2 = [NSString stringWithFormat:@"%@元/平",dic[@"price"]];
-//    NSString *str2 = [[NSString alloc]initWithString:dic[@"price"]];
-//    NSLog(@"str2 = %@",str2);
-//    NSString *str3 = [[NSString alloc]initWithFormat:@"%@",dic[@"price"]];
-//    NSLog(@"str3 = %@",str3);
-    
-    
     UILabel *lable1 = [[UILabel alloc]initWithFrame:CGRectMake(125, 0, ViewWidth -130, 30)];
     UILabel *lable2 = [[UILabel alloc]initWithFrame:CGRectMake(125, 30,ViewWidth -130, 30)];
     UILabel *lable3 = [[UILabel alloc]initWithFrame:CGRectMake(125, 60,(ViewWidth -230), 30)];
@@ -115,7 +108,12 @@
     return 95;
 }
 
-
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    BuildingDetaild *BD = [BuildingDetaild new];
+    BD.HousesID = self.BulidData[indexPath.row][@"loupan_id"];
+    [self.navigationController pushViewController:BD animated:YES];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

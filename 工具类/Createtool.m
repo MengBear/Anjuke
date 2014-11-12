@@ -18,4 +18,8 @@
     UIBarButtonItem * bar = [[UIBarButtonItem alloc] initWithCustomView:btn];
     return bar;
 }
+-(void)back:(UIViewController *)sender
+{
+    
+}
 @end

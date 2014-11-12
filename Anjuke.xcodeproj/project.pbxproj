@@ -106,6 +106,7 @@
 		C7A045BB1A11A2C900BAD838 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A045BA1A11A2C900BAD838 /* RootViewController.m */; };
 		C7A045BE1A11A5F200BAD838 /* details_arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A045BC1A11A5F200BAD838 /* details_arrow_left.png */; };
 		C7A045BF1A11A5F200BAD838 /* details_arrow_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A045BD1A11A5F200BAD838 /* details_arrow_left@2x.png */; };
+		C7A045C11A11FC3000BAD838 /* test in Resources */ = {isa = PBXBuildFile; fileRef = C7A045C01A11FC3000BAD838 /* test */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -264,6 +265,7 @@
 		C7A045BA1A11A2C900BAD838 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		C7A045BC1A11A5F200BAD838 /* details_arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = details_arrow_left.png; sourceTree = "<group>"; };
 		C7A045BD1A11A5F200BAD838 /* details_arrow_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "details_arrow_left@2x.png"; sourceTree = "<group>"; };
+		C7A045C01A11FC3000BAD838 /* test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -517,6 +519,7 @@
 				C7A045191A11A29300BAD838 /* BuildingDetaild.h */,
 				C7A0451A1A11A29300BAD838 /* BuildingDetaild.m */,
 				C7A0451B1A11A29300BAD838 /* File */,
+				C7A045C01A11FC3000BAD838 /* test */,
 			);
 			path = "楼盘";
 			sourceTree = "<group>";
@@ -735,6 +738,7 @@
 				C7A045851A11A29300BAD838 /* 14.获取资讯详细信息 2个参数  cate id 和 inform id 都可以从上面api获取.plist in Resources */,
 				C7A045831A11A29300BAD838 /* 12.获取资讯信息 1个参数 可以获取到cate id.plist in Resources */,
 				C7A0457A1A11A29300BAD838 /* 7.在新房寻找房子 3个参数  在这可以获取楼盘ID号 和 一个PROP ID的数值.plist in Resources */,
+				C7A045C11A11FC3000BAD838 /* test in Resources */,
 				C7A045781A11A29300BAD838 /* 城市信息.plist in Resources */,
 				C7A044B91A11A20900BAD838 /* LaunchScreen.xib in Resources */,
 				C7A045B11A11A29300BAD838 /* comm_my_icon9@2x.png in Resources */,

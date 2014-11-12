@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
-@interface BuildingDetaild : ViewController
-
+@interface BuildingDetaild : ViewController<UITableViewDataSource,UITableViewDelegate>
+@property(nonatomic,strong)NSDictionary *BuildingDetaildData;
+@property(nonatomic,strong)NSString *HousesID;
+@property(nonatomic,strong)UITableView *TableView;
 @end
