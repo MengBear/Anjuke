@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C75908311A12F7D00042A51D /* aifang_46.png in Resources */ = {isa = PBXBuildFile; fileRef = C759082F1A12F7D00042A51D /* aifang_46.png */; };
+		C75908321A12F7D00042A51D /* aifang_46@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C75908301A12F7D00042A51D /* aifang_46@2x.png */; };
+		C75908351A1305CA0042A51D /* Height.m in Sources */ = {isa = PBXBuildFile; fileRef = C75908341A1305CA0042A51D /* Height.m */; };
+		C75908381A1316D50042A51D /* aifang_27.png in Resources */ = {isa = PBXBuildFile; fileRef = C75908361A1316D50042A51D /* aifang_27.png */; };
+		C75908391A1316D50042A51D /* aifang_27@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C75908371A1316D50042A51D /* aifang_27@2x.png */; };
 		C7A044A81A11A20900BAD838 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A044A71A11A20900BAD838 /* main.m */; };
 		C7A044AB1A11A20900BAD838 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A044AA1A11A20900BAD838 /* AppDelegate.m */; };
 		C7A044AE1A11A20900BAD838 /* Anjuke.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7A044AC1A11A20900BAD838 /* Anjuke.xcdatamodeld */; };
@@ -120,6 +125,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C759082F1A12F7D00042A51D /* aifang_46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aifang_46.png; sourceTree = "<group>"; };
+		C75908301A12F7D00042A51D /* aifang_46@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aifang_46@2x.png"; sourceTree = "<group>"; };
+		C75908331A1305CA0042A51D /* Height.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Height.h; sourceTree = "<group>"; };
+		C75908341A1305CA0042A51D /* Height.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Height.m; sourceTree = "<group>"; };
+		C75908361A1316D50042A51D /* aifang_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aifang_27.png; sourceTree = "<group>"; };
+		C75908371A1316D50042A51D /* aifang_27@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aifang_27@2x.png"; sourceTree = "<group>"; };
 		C7A044A21A11A20900BAD838 /* Anjuke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anjuke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A044A61A11A20900BAD838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7A044A71A11A20900BAD838 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -419,6 +430,8 @@
 		C7A044F41A11A29300BAD838 /* 工具类 */ = {
 			isa = PBXGroup;
 			children = (
+				C75908331A1305CA0042A51D /* Height.h */,
+				C75908341A1305CA0042A51D /* Height.m */,
 				C7A044F51A11A29300BAD838 /* Createtool.h */,
 				C7A044F61A11A29300BAD838 /* Createtool.m */,
 				C7A044F71A11A29300BAD838 /* 自定义导航名字 */,
@@ -609,6 +622,10 @@
 		C7A045481A11A29300BAD838 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				C759082F1A12F7D00042A51D /* aifang_46.png */,
+				C75908361A1316D50042A51D /* aifang_27.png */,
+				C75908371A1316D50042A51D /* aifang_27@2x.png */,
+				C75908301A12F7D00042A51D /* aifang_46@2x.png */,
 				C7A045BC1A11A5F200BAD838 /* details_arrow_left.png */,
 				C7A045BD1A11A5F200BAD838 /* details_arrow_left@2x.png */,
 				C7A045491A11A29300BAD838 /* 555.png */,
@@ -722,6 +739,7 @@
 				C7A045B51A11A29300BAD838 /* home_icon_fangjia@2x.png in Resources */,
 				C7A045B21A11A29300BAD838 /* details_arrow_xia.png in Resources */,
 				C7A0458D1A11A29300BAD838 /* 10 in Resources */,
+				C75908391A1316D50042A51D /* aifang_27@2x.png in Resources */,
 				C7A045771A11A29300BAD838 /* region.plist in Resources */,
 				C7A045811A11A29300BAD838 /* 5.寻找附近的房子 4个参数  如-广州城市ID-12, 寻找半径-5000 纬度-23.157638 经度-113.261168 .plist in Resources */,
 				C7A045881A11A29300BAD838 /* File in Resources */,
@@ -736,9 +754,11 @@
 				C7A0459F1A11A29300BAD838 /* NH_but_zhixiang@2x.png in Resources */,
 				C7A045BF1A11A5F200BAD838 /* details_arrow_left@2x.png in Resources */,
 				C7A045851A11A29300BAD838 /* 14.获取资讯详细信息 2个参数  cate id 和 inform id 都可以从上面api获取.plist in Resources */,
+				C75908321A12F7D00042A51D /* aifang_46@2x.png in Resources */,
 				C7A045831A11A29300BAD838 /* 12.获取资讯信息 1个参数 可以获取到cate id.plist in Resources */,
 				C7A0457A1A11A29300BAD838 /* 7.在新房寻找房子 3个参数  在这可以获取楼盘ID号 和 一个PROP ID的数值.plist in Resources */,
 				C7A045C11A11FC3000BAD838 /* test in Resources */,
+				C75908381A1316D50042A51D /* aifang_27.png in Resources */,
 				C7A045781A11A29300BAD838 /* 城市信息.plist in Resources */,
 				C7A044B91A11A20900BAD838 /* LaunchScreen.xib in Resources */,
 				C7A045B11A11A29300BAD838 /* comm_my_icon9@2x.png in Resources */,
@@ -747,6 +767,7 @@
 				C7A045921A11A29300BAD838 /* File in Resources */,
 				C7A045A91A11A29300BAD838 /* comm_hometab_icon_my_slt@2x.png in Resources */,
 				C7A045761A11A29300BAD838 /* priceRange.plist in Resources */,
+				C75908311A12F7D00042A51D /* aifang_46.png in Resources */,
 				C7A045841A11A29300BAD838 /* 13.获取资讯信息 2个参数.plist in Resources */,
 				C7A045791A11A29300BAD838 /* 10.查看城市推荐的楼盘 1个参数.plist in Resources */,
 				C7A045AA1A11A29300BAD838 /* comm_map_btn_shop@2x.png in Resources */,
@@ -829,6 +850,7 @@
 				C7A045931A11A29300BAD838 /* GroupBuyingTableViewControlle.m in Sources */,
 				C7A0456B1A11A29300BAD838 /* UIImage+GIF.m in Sources */,
 				C7A045641A11A29300BAD838 /* SDWebImageCompat.m in Sources */,
+				C75908351A1305CA0042A51D /* Height.m in Sources */,
 				C7A045911A11A29300BAD838 /* InformationViewController.m in Sources */,
 				C7A045621A11A29300BAD838 /* NSData+ImageContentType.m in Sources */,
 				C7A044A81A11A20900BAD838 /* main.m in Sources */,
