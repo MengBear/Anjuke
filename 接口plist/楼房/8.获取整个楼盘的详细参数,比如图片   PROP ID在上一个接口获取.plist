@@ -40,8 +40,8 @@
 		"prop_desc" = "\U4e07\U5143\U5355\U4ef7\U4e70\U8f68\U4ea4\U5b66\U4f4d\U623f\U3002\U7cbe\U54c1\U7ea7\U88c5\U4fee\Uff0c\U4e70\U4e0a\U5bb6\U5177\U5373\U53ef\U5165\U4f4f\U3002\U7d27\U90bb9\U53f7\U7ebf\U5e7f\U5dde\U5317\U7ad9\U5730\U94c1\U53e3\U300210\U670825\U65e5\U4e13\U573a\U770b\U623f\U56e2\U3002";
 		"prop_fitment" = "\U7cbe\U88c5\U4fee";
 		"prop_id" = 8671244;
-		"prop_max_price" = "83.60";
 		"prop_min_price" = "83.60";
+		"prop_max_price" = "83.60";
 		"prop_num" = 16;
 		"prop_old_max_price" = "0.00";
 		"prop_old_min_price" = "0.00";

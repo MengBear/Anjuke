@@ -20,6 +20,8 @@
     [super viewDidLoad];
     self.navigationItem.leftBarButtonItem = [Createtool createBack:self];
     
+    UIBarButtonItem * shouCang = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"favorite@2x"] style:UIBarButtonItemStylePlain target:self action:@selector(ShouCangBar)];
+    self.navigationItem.rightBarButtonItem = shouCang;
     
     
     self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
@@ -342,6 +344,13 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - 收藏Bar方法
+-(void)ShouCangBar
+{
+    Collect * coll = [[Collect alloc]init];
+    [coll ID:self.DetailData[@"result"][@"loupan_id"] name:self.DetailData[@"result"][@"loupan_name"] databaseName:@"ShouCangFang"];
 }
 
 @end

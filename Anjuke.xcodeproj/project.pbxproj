@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F6BD2D41A143FEE007C87CA /* Collect.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6BD2D31A143FEE007C87CA /* Collect.m */; };
+		0F6BD2D71A144FA9007C87CA /* ManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6BD2D61A144FA9007C87CA /* ManagedObject.m */; };
+		0F6BD2DA1A1460A4007C87CA /* favorite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6BD2D81A1460A4007C87CA /* favorite@2x.png */; };
+		0F6BD2DB1A1460A4007C87CA /* favoritePop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6BD2D91A1460A4007C87CA /* favoritePop@2x.png */; };
+		0F6BD2DD1A1463E2007C87CA /* xiangxi in Resources */ = {isa = PBXBuildFile; fileRef = 0F6BD2DC1A1463E2007C87CA /* xiangxi */; };
 		0FC1C90B1A11A9E20091E5AC /* anjuke61price_home4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC1C90A1A11A9E20091E5AC /* anjuke61price_home4@2x.png */; };
 		0FC1C90D1A11AA270091E5AC /* aifang_46.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC1C90C1A11AA270091E5AC /* aifang_46.png */; };
 		0FC1C9101A11F2190091E5AC /* DetailedInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC1C90F1A11F2190091E5AC /* DetailedInformationViewController.m */; };
@@ -139,6 +144,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F6BD2D21A143FEE007C87CA /* Collect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Collect.h; sourceTree = "<group>"; };
+		0F6BD2D31A143FEE007C87CA /* Collect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Collect.m; sourceTree = "<group>"; };
+		0F6BD2D51A144FA9007C87CA /* ManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagedObject.h; sourceTree = "<group>"; };
+		0F6BD2D61A144FA9007C87CA /* ManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagedObject.m; sourceTree = "<group>"; };
+		0F6BD2D81A1460A4007C87CA /* favorite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favorite@2x.png"; sourceTree = "<group>"; };
+		0F6BD2D91A1460A4007C87CA /* favoritePop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favoritePop@2x.png"; sourceTree = "<group>"; };
+		0F6BD2DC1A1463E2007C87CA /* xiangxi */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = xiangxi; sourceTree = "<group>"; };
 		0FC1C90A1A11A9E20091E5AC /* anjuke61price_home4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "anjuke61price_home4@2x.png"; sourceTree = "<group>"; };
 		0FC1C90C1A11AA270091E5AC /* aifang_46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aifang_46.png; sourceTree = "<group>"; };
 		0FC1C90E1A11F2190091E5AC /* DetailedInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedInformationViewController.h; sourceTree = "<group>"; };
@@ -340,6 +352,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F6BD2D11A143FB2007C87CA /* 收藏 */ = {
+			isa = PBXGroup;
+			children = (
+				0F6BD2D21A143FEE007C87CA /* Collect.h */,
+				0F6BD2D31A143FEE007C87CA /* Collect.m */,
+				0F6BD2D51A144FA9007C87CA /* ManagedObject.h */,
+				0F6BD2D61A144FA9007C87CA /* ManagedObject.m */,
+			);
+			path = "收藏";
+			sourceTree = "<group>";
+		};
 		0FE030901A133B5D00F28F88 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -550,6 +573,7 @@
 		C7A044F41A11A29300BAD838 /* 工具类 */ = {
 			isa = PBXGroup;
 			children = (
+				0F6BD2D11A143FB2007C87CA /* 收藏 */,
 				0FE030A41A133C8500F28F88 /* 自定义bar */,
 				0FE030A01A133C5000F28F88 /* 字体高度自适应 */,
 				C7A044F71A11A29300BAD838 /* 自定义导航名字 */,
@@ -735,6 +759,7 @@
 				C7A045451A11A29300BAD838 /* NewHouseDetail.m */,
 				C7A045461A11A29300BAD838 /* NH_but_zhixiang@2x.png */,
 				C7A045471A11A29300BAD838 /* xinfang */,
+				0F6BD2DC1A1463E2007C87CA /* xiangxi */,
 			);
 			path = "新房";
 			sourceTree = "<group>";
@@ -742,6 +767,8 @@
 		C7A045481A11A29300BAD838 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				0F6BD2D81A1460A4007C87CA /* favorite@2x.png */,
+				0F6BD2D91A1460A4007C87CA /* favoritePop@2x.png */,
 				0FE030AA1A134C6100F28F88 /* anjuke61price_home5@2x.png */,
 				0FE030A81A13491A00F28F88 /* anjuke61price_home3@2x.png */,
 				0FC1C90C1A11AA270091E5AC /* aifang_46.png */,
@@ -864,11 +891,13 @@
 				C7A045881A11A29300BAD838 /* File in Resources */,
 				C7A0457B1A11A29300BAD838 /* 8.获取整个楼盘的详细参数,比如图片   PROP ID在上一个接口获取.plist in Resources */,
 				C7A045821A11A29300BAD838 /* 6.寻找城市  1个参数.plist in Resources */,
+				0F6BD2DB1A1460A4007C87CA /* favoritePop@2x.png in Resources */,
 				C7A045941A11A29300BAD838 /* GroupBuyingTableViewController.xib in Resources */,
 				C7A0459B1A11A29300BAD838 /* MineTableViewController.xib in Resources */,
 				C7A0459C1A11A29300BAD838 /* details_arrow_buttubiao.png in Resources */,
 				0FE030A91A13491A00F28F88 /* anjuke61price_home3@2x.png in Resources */,
 				C7A045A61A11A29300BAD838 /* comm_hometab_icon_house@2x.png in Resources */,
+				0F6BD2DA1A1460A4007C87CA /* favorite@2x.png in Resources */,
 				C7A045801A11A29300BAD838 /* 4.一个当前的热门楼盘.plist in Resources */,
 				C7A044B41A11A20900BAD838 /* Main.storyboard in Resources */,
 				C7A0459F1A11A29300BAD838 /* NH_but_zhixiang@2x.png in Resources */,
@@ -916,6 +945,7 @@
 				C7A045A51A11A29300BAD838 /* area_filter_unfold@2x.png in Resources */,
 				C7A045BE1A11A5F200BAD838 /* details_arrow_left.png in Resources */,
 				C7A045AD1A11A29300BAD838 /* comm_my_contact@2x.png in Resources */,
+				0F6BD2DD1A1463E2007C87CA /* xiangxi in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -944,6 +974,7 @@
 				C7A0456F1A11A29300BAD838 /* UIImageView+WebCache.m in Sources */,
 				C7A045BB1A11A2C900BAD838 /* RootViewController.m in Sources */,
 				C7A0456D1A11A29300BAD838 /* UIImage+WebP.m in Sources */,
+				0F6BD2D71A144FA9007C87CA /* ManagedObject.m in Sources */,
 				C7A045971A11A29300BAD838 /* AboutUsViewController.m in Sources */,
 				C7A0458A1A11A29300BAD838 /* Header.m in Sources */,
 				C7A045871A11A29300BAD838 /* BuildingDetaild.m in Sources */,
@@ -981,6 +1012,7 @@
 				C7A045671A11A29300BAD838 /* SDWebImageDownloaderOperation.m in Sources */,
 				C7A045931A11A29300BAD838 /* GroupBuyingTableViewControlle.m in Sources */,
 				C7A0456B1A11A29300BAD838 /* UIImage+GIF.m in Sources */,
+				0F6BD2D41A143FEE007C87CA /* Collect.m in Sources */,
 				0FE0309E1A133B5D00F28F88 /* WaterFCell.m in Sources */,
 				C7A045641A11A29300BAD838 /* SDWebImageCompat.m in Sources */,
 				C7A045911A11A29300BAD838 /* InformationViewController.m in Sources */,

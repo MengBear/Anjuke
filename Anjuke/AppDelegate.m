@@ -77,7 +77,6 @@
         for (CLPlacemark * mark in placemarks)
         {
             RootViewController * root = [RootViewController new];
-            NSLog(@"%@",mark.locality);
             root.cityName = mark.locality;
 
 //            NSLog(@"街道：%@",mark.thoroughfare);
@@ -149,6 +148,7 @@
 
 - (NSURL *)applicationDocumentsDirectory {
     // The directory the application uses to store the Core Data store file. This code uses a directory named "com.ibokan.Aujuke" in the application's documents directory.
+    NSLog(@"%@",[[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject]);
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
 
@@ -157,7 +157,8 @@
     if (_managedObjectModel != nil) {
         return _managedObjectModel;
     }
-    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"Aujuke" withExtension:@"momd"];
+    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"Anjuke" withExtension:@"momd"];
+   // NSURL *modelURL = [NSURL fileURLWithPath:[path stringByAppendingPathExtension:@"mom"]];
     _managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
     return _managedObjectModel;
 }
@@ -171,7 +172,7 @@
     // Create the coordinator and store
     
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
-    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"Aujuke.sqlite"];
+    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"Anjuke.sqlite"];
     NSError *error = nil;
     NSString *failureReason = @"There was an error creating or loading the application's saved data.";
     if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error]) {

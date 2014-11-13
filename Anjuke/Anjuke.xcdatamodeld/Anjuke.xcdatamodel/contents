@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14A389" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ShouCangFang" syncable="YES">
+        <attribute name="lid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ShouCangPan" syncable="YES">
+        <attribute name="lid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ShouCangFang" positionX="-54" positionY="-9" width="128" height="73"/>
+        <element name="ShouCangPan" positionX="-36" positionY="27" width="128" height="73"/>
+    </elements>
 </model>
