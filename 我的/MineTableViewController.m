@@ -62,6 +62,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //定义导航栏背景
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"anjuke61price_home5@2x"]forBarMetrics:UIBarMetricsDefault];
     ScrollSuo = YES;
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self titleNavigationItem];//自定义标题NavigationItem

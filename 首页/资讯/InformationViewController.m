@@ -8,8 +8,12 @@
 
 #import "InformationViewController.h"
 #import "DetailedInformationViewController.h"
+#import "MJRefresh.h"
 @interface InformationViewController ()
-
+{
+    int n;
+    int m;
+}
 
 @end
 
@@ -18,26 +22,85 @@
 #pragma mark - 获取数据源
 -(void)GetDataSource
 {
-    self.dataSource = [NSMutableArray new];
-    for (int i = 20;; i = i + 20)
+    
+    for (int i = n;; i = i + 20)
     {
+         NSLog(@"%d",i);
         NSArray * arr = [GainDataSource shuJuYuan:ForMoreInformation(self.cityID, i)][@"result"][@"rows"];
         for (int y = i - 20; y < i; y++)
         {
             if (![arr[y][@"summary"] isEqualToString:@""] && ![arr[y][@"thumb_image"] isEqualToString:@""])
             {
-                if (self.dataSource.count < 20)
+                
+                if (self.dataSource.count < 20 * m)
                 {
                     [self.dataSource addObject:arr[y]];
                 }
                 else
                 {
+                    n = i + 20;
+                    m++;
                     return;
                 }
             }
         }
     }
 }
+
+/**
+ *  集成刷新控件
+ */
+- (void)setupRefresh
+{
+    // 1.下拉刷新(进入刷新状态就会调用self的headerRereshing)
+    [self.tableView addHeaderWithTarget:self action:@selector(headerRereshing)];
+//warning 自动刷新(一进入程序就下拉刷新)
+    [self.tableView headerBeginRefreshing];
+    
+    // 2.上拉加载更多(进入刷新状态就会调用self的footerRereshing)
+    [self.tableView addFooterWithTarget:self action:@selector(footerRereshing)];
+    
+    // 设置文字(也可以不设置,默认的文字在MJRefreshConst中修改)
+    self.tableView.headerPullToRefreshText = @"下拉可以刷新了";
+    self.tableView.headerReleaseToRefreshText = @"松开马上刷新了";
+    self.tableView.headerRefreshingText = @"正在努力刷新...";
+    
+//    self.tableView.footerPullToRefreshText = @"上拉可以加载更多数据了";
+//    self.tableView.footerReleaseToRefreshText = @"松开马上加载更多数据了";
+//    self.tableView.footerRefreshingText = @"MJ哥正在帮你加载中,不客气";
+}
+
+#pragma mark 开始进入刷新状态
+- (void)headerRereshing
+{
+    // 1.添加假数据
+    [self GetDataSource];
+    
+    // 2.2秒后刷新表格UI
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        // 刷新表格
+        [self.tableView reloadData];
+        
+        // (最好在刷新表格后调用)调用endRefreshing可以结束刷新状态
+        [self.tableView headerEndRefreshing];
+    });
+}
+
+- (void)footerRereshing
+{
+    [self GetDataSource];
+    
+    // 2.2秒后刷新表格UI
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(4.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        // 刷新表格
+        [self.tableView reloadData];
+        
+        // (最好在刷新表格后调用)调用endRefreshing可以结束刷新状态
+        [self.tableView footerEndRefreshing];
+    });
+}
+
+
 
 -(void)viewWillAppear:(BOOL)animated
 {
@@ -48,15 +111,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self GetDataSource];
+    //[self GetDataSource];
+    self.dataSource = [NSMutableArray new];
+    n = 20;
+    m = 1;
+    
+    
     self.navigationItem.titleView = [CustomNavigationName titleNavigationItem:@"资讯"];
     self.navigationController.navigationBarHidden = NO;
     _tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
     _tableView.dataSource = self;
     _tableView.delegate = self;
     _tableView.separatorInset = UIEdgeInsetsMake(0, 10, 0, 10);
+    
     //_tableView.separatorInset = UIEdgeInsetsZero;
     [self.view addSubview:_tableView];
+    
+    [self setupRefresh];
     
 }
 
@@ -117,7 +188,6 @@
     DetailedInformationViewController * detailedInformation = [DetailedInformationViewController new];
     detailedInformation.informID = self.dataSource[indexPath.row][@"id"];
     [self.navigationController pushViewController:detailedInformation animated:YES];
-    
 }
 
 -(void)back:(id)sender

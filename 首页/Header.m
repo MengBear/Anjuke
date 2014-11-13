@@ -12,6 +12,7 @@
 #import "CityViewController.h"
 #import "InformationViewController.h"
 #import "RecommendViewController.h"
+#import "MJTableViewController.h"
 #define NameImgViewWidth   80                              //标题名字图片宽度
 #define NameImgViewHeight  20                              //标题名字图片高度
 #define RegionButWidth     50                              //地区按钮宽度
@@ -97,8 +98,8 @@
 #pragma mark - 图片轮播布局
 -(void)ScrollViewImage:(NSString *)cityID cityName:(NSString*)cityName
 {
-    //int  value = (arc4random() % 10) + 1;//随机页数
-    NSDictionary * dic = [GainDataSource shuJuYuan:HotHouses(cityID, 1, Amount)];
+    int  value = (arc4random() % 10) + 1;//随机页数
+    NSDictionary * dic = [GainDataSource shuJuYuan:HotHouses(cityID, value, Amount)];
     
     scrollV = [[UIScrollView alloc]initWithFrame:CGRectMake(0,but.frame.origin.y + CGRectGetHeight(but.frame) + 30, ScreenWidth,(ScreenWidth - 8) / 3)];
     scrollV.contentSize = CGSizeMake(((ScreenWidth - 8)  / 3 + 2) * 12 + 2, 80);
@@ -206,8 +207,8 @@
         }];
     }];
 }
-#pragma mark - 跳转页面
 
+#pragma mark - 跳转页面
 -(void)pushchooseVC:(NSInteger)tag
 {
     switch (tag)
@@ -229,7 +230,10 @@
             InformationViewController * information = [InformationViewController new];
             information.cityID = self.cityID;
             [self.Navi pushViewController:information animated:YES];
+//            MJTableViewController * mj = [MJTableViewController new];
+//            [self.Navi pushViewController:mj animated:YES];
         }
+            break;
         case 103:
         {
             RecommendViewController * recommend = [RecommendViewController new];

@@ -43,6 +43,7 @@
 -(void)Headview
 {
     UIScrollView *scroview2 = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0,ViewWidth, 180)];
+    scroview2.pagingEnabled = YES;
     scroview2.contentSize = CGSizeMake(self.Imagedata.count * ViewWidth, 180);
     self.tableView.tableHeaderView = scroview2;
     

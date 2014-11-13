@@ -32,6 +32,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self titleNavigationItem];//刷新数据
+//    //定义导航栏背景
+//    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"anjuke61price_home3@2x"]forBarMetrics:UIBarMetricsDefault];
     if (!self.cityID)
     {
         self.cityID = @"12";

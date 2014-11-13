@@ -28,7 +28,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self GetDataSource];
+    
+    
+    
     // Do any additional setup after loading the view.
+}
+
+- (void)addWaterFollow:(UIButton*)btn
+{
+   
 }
 
 - (void)didReceiveMemoryWarning {

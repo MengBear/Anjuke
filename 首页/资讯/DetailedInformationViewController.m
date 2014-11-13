@@ -40,7 +40,7 @@
     _tableView.delegate = self;
     [self.view addSubview:_tableView];
 
-//    _webView = [[UIWebView alloc]initWithFrame:self.view.bounds];
+//    _webView = [[UIWebView alloc]initWithFrame:CGRectMake(0, 20, ScreenWidth, ScreenHeight)];
 //    _webView.delegate = self;
 //    [_webView loadRequest:[[NSURLRequest alloc]initWithURL:[NSURL URLWithString:self.dataSource[@"origin_url"]]]];
 //    [self.view addSubview:_webView];

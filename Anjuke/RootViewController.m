@@ -25,7 +25,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
    /// [self location];
-    
     NSLog(@"self.cityName = %@",self.cityName);
     _images1= @[[UIImage imageNamed:@"comm_hometab_icon_house@2x"],[UIImage imageNamed:@"comm_map_btn_shop@2x"],[UIImage imageNamed:@"comm_hometab_icon_my@2x"]];
     _images2 = @[[UIImage imageNamed:@"comm_hometab_icon_house_slt@2x"],[UIImage imageNamed:@"comm_map_btn_shop_slt@2x"],[UIImage imageNamed:@"comm_hometab_icon_my_slt@2x"]];
